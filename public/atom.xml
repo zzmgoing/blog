@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>钟子明</title>
+  
+  <subtitle>钟子明</subtitle>
+  <link href="https://blog.zzming.cn/atom.xml" rel="self"/>
+  
+  <link href="https://blog.zzming.cn/"/>
+  <updated>2022-06-01T16:16:02.574Z</updated>
+  <id>https://blog.zzming.cn/</id>
+  
+  <author>
+    <name>钟子明</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Butterfly主题</title>
+    <link href="https://blog.zzming.cn/post/2756f2af.html"/>
+    <id>https://blog.zzming.cn/post/2756f2af.html</id>
+    <published>2022-05-28T21:28:28.000Z</published>
+    <updated>2022-06-01T16:16:02.574Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Butterfly主题"><a href="#Butterfly主题" class="headerlink" title="Butterfly主题"></a>Butterfly主题</h1><p>主题地址：<a href="https://butterfly.js.org/">https://butterfly.js.org/</a></p><p>Github地址：<a href="https://github.com/jerryc127/hexo-theme-butterfly">https://github.com/jerryc127/hexo-theme-butterfly</a></p><h2 id="相关文档"><a href="#相关文档" class="headerlink" title="相关文档"></a>相关文档</h2><ul><li><a href="https://butterfly.js.org/posts/21cfbf15/">Butterfly 安裝文檔(一) 快速開始</a></li><li><a href="https://butterfly.js.org/posts/dc584b87/">Butterfly 安裝文檔(二) 主題頁面</a></li><li><a href="https://butterfly.js.org/posts/4aa8abbe/">Butterfly 安裝文檔(三) 主題配置-1</a></li><li><a href="https://butterfly.js.org/posts/ceeb73f/">Butterfly 安裝文檔(四) 主題配置-2</a></li><li><a href="https://butterfly.js.org/posts/98d20436/">Butterfly 安裝文檔(五) 主題問答</a></li><li><a href="https://butterfly.js.org/posts/4073eda/">Butterfly 安裝文檔(六) 進階教程</a></li><li><a href="https://butterfly.js.org/posts/b37b5fe3/">自定義代碼配色</a></li><li><a href="https://butterfly.js.org/posts/507c070f/">Butterfly添加全局吸底Aplayer教程</a></li><li><a href="https://butterfly.js.org/posts/ea33ab97/">自定義側邊欄</a></li></ul><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><ul><li><a href="https://cloud.tencent.com/developer/article/1987454">快速将Butterfly主题的CDN从jsDelivr切换至自建反向代理源</a></li><li><a href="https://blog.csdn.net/weixin_44318830/article/details/104884936">Hexo启动页面显示extends includes/layout.pug block content include includes</a></li><li><a href="https://blog.csdn.net/Galahadzhou/article/details/105355733">Hexo Permalink简化</a></li></ul><h2 id="主题美化"><a href="#主题美化" class="headerlink" title="主题美化"></a>主题美化</h2><ul><li><a href="https://akilar.top/posts/615e2dec/#%E5%BC%95%E7%94%A8-note">Tag Plugins Plus</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Butterfly主题&quot;&gt;&lt;a href=&quot;#Butterfly主题&quot; class=&quot;headerlink&quot; title=&quot;Butterfly主题&quot;&gt;&lt;/a&gt;Butterfly主题&lt;/h1&gt;&lt;p&gt;主题地址：&lt;a href=&quot;https://butterfly.js</summary>
+      
+    
+    
+    
+    <category term="主题" scheme="https://blog.zzming.cn/categories/%E4%B8%BB%E9%A2%98/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.zzming.cn/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我们结婚了</title>
+    <link href="https://blog.zzming.cn/post/52aec6e1.html"/>
+    <id>https://blog.zzming.cn/post/52aec6e1.html</id>
+    <published>2020-10-01T08:00:00.000Z</published>
+    <updated>2022-06-01T16:10:45.526Z</updated>
+    
+    <content type="html"><![CDATA[<div class="video"><video controls preload><source src='https://img.upyun.zzming.cn/video/1609605466232679.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
+    
+    
+    <summary type="html">我们结婚了</summary>
+    
+    
+    
+    <category term="视频" scheme="https://blog.zzming.cn/categories/%E8%A7%86%E9%A2%91/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>旧时光的瓶子</title>
+    <link href="https://blog.zzming.cn/post/3a57339.html"/>
+    <id>https://blog.zzming.cn/post/3a57339.html</id>
+    <published>2016-11-05T20:46:20.000Z</published>
+    <updated>2022-06-01T16:08:00.052Z</updated>
+    
+    <content type="html"><![CDATA[<div class='poem'><div class='poem-title'></div><div class='poem-author'></div><p>听听海边的风，沙子在我脚下流动<br>月亮从夜幕中浮起<br>潮水在暗涌<br>漂亮的贝壳已经被人拾去<br>我只能捧起这湿润的沙<br>装在旧时光的瓶子里</p><p>你的笑容总是浮现在我的梦<br>好像是前世的情<br>化作了今生的债<br>离开海边，沙子也会寂寞<br>不知道会过多久才明白<br>你所逃离的，正是你渴望的</p><p>远方的朋友<br>因为分离让我们彼此变得这般陌生<br>而今天的偶遇<br>是生命的轨迹，在岁月中重逢吗<br>你有了苍苍白发<br>而我已看不清</p><p>当潮水一次又一次<br>淹没了我的脚印<br>当手中的沙子反反复复<br>从指缝间逃走<br>我明白这旧时光的瓶子里<br>装的是自己</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&#39;poem&#39;&gt;&lt;div class=&#39;poem-title&#39;&gt;&lt;/div&gt;&lt;div class=&#39;poem-author&#39;&gt;&lt;/div&gt;&lt;p&gt;听听海边的风，沙子在我脚下流动&lt;br&gt;月亮从夜幕中浮起&lt;br&gt;潮水在暗涌&lt;br&gt;漂亮的贝壳已经被人拾去&lt;br&gt;我只能</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="https://blog.zzming.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+  </entry>
+  
+</feed>
