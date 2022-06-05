@@ -7,9 +7,9 @@ date: 2022-05-28 13:28:28
 updated:
 categories: 主题
 description:
-top_img: https://img.upyun.zzming.cn/blog/butterfly_image.png
+top_img: https://fastly.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
 comments:
-cover: https://img.upyun.zzming.cn/blog/butterfly_image.png
+cover: https://fastly.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
 toc:
 toc_number:
 toc_style_simple:
@@ -26,9 +26,9 @@ aside:
 ---
 # Butterfly主题
 
-主题地址：[https://butterfly.js.org/](https://butterfly.js.org/)
+[comment]: <> ({% site Butterfly, url=https://butterfly.js.org, screenshot=https://fastly.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg, avatar=https://butterfly.js.org/img/avatar.png, description=Butterfly主题官网 %})
 
-Github地址：[https://github.com/jerryc127/hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly)
+{% ghcard jerryc127/hexo-theme-butterfly, theme=vue %}
 
 ## 相关文档
 
@@ -50,4 +50,6 @@ Github地址：[https://github.com/jerryc127/hexo-theme-butterfly](https://githu
 
 ## 主题美化
 
-- [Tag Plugins Plus](https://akilar.top/posts/615e2dec/#%E5%BC%95%E7%94%A8-note)
+- [Akilarの外挂标签引入](https://akilar.top/posts/615e2dec/#%E5%BC%95%E7%94%A8-note)
+- [基于Butterfly的外挂标签引入](https://tzy1997.com/articles/0xiipgum/)
+- [Hexo+Butterfly主题美化](https://tzy1997.com/articles/hexo541u/)

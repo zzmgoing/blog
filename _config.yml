@@ -109,3 +109,17 @@ deploy:
   type: git
   repo: git@github.com:zzmgoing/blog.git
   branch: master
+
+douban:
+  user: 183895557
+  builtin: false
+  book:
+    title: '腹有诗书气自华'
+    quote: 'One who is filled with knowledge always behaves with elegance.'
+  movie:
+    title: '梦想与现实的碰撞'
+    quote: 'The collision between dream and reality.'
+#  game:
+#    title: '诅咒中闪烁泪光，倾诉霜之哀伤。'
+#    quote: 'Tears flicker in the curse and pour out the sorrow of frost.'
+  timeout: 10000

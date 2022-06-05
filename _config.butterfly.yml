@@ -9,20 +9,20 @@ menu:
   分类: /categories/ || fas fa-folder-open
   生活||fas fa-list:
     相册: /photos/ || fas fa-images
-    视频: /categories/视频/ || fas fa-video
-    随笔: /categories/随笔/ || fas fa-book
+    书单: /books/ || fas fa-book
+    电影: /movies/ || fas fa-video
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: false # unit: px
-code_word_wrap: false
+highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_height_limit: 200 # unit: px
+code_word_wrap: true
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
@@ -181,7 +181,7 @@ toc:
   page: false
   number: true
   expand: false
-  style_simple: false # for post
+  style_simple: true # for post
 
 post_copyright:
   enable: true
@@ -223,13 +223,13 @@ photofigcaption: false
 # 1: The 'next post' will link to old post
 # 2: The 'next post' will link to new post
 # false: disable pagination
-post_pagination: 1
+post_pagination: false
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
-  enable: false
+  enable: true
   style: flat # style: simple/flat
-  limit_day: 500 # When will it be shown
+  limit_day: 365 # When will it be shown
   position: top # position: top/bottom
   message_prev: It has been
   message_next: days since the last update, the content of the article may be outdated.
@@ -305,16 +305,23 @@ valine:
   appKey: FpT465VhNqze2lj63fwHlPhJ # leancloud application app key
   emojiCDN: https://gamernotitle.coding.net/p/ValineCDN/d/ValineCDN/git/raw/master/ # emoji CDN
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  serverURLs: https://leancloud.zzming.cn # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
   visitor: false
   pageSize: 10 # comment list page size
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
   placeholder: 记得留下你的昵称和邮箱....可以快速收到回復 # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header info (nick/mail/link)
-  recordIP: true # Record reviewer IP
+  recordIP: false # Record reviewer IP
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: nick,mail # required fields (nick/mail)
+  tagMeta: '博主,小伙伴,访客' # 标签要显示的文字,默认'博主,小伙伴,访客'
+  master:
+    - 8ad8ddc71f2bd2eb4b25a94fb57134f4
+  metaPlaceholder:
+    nick: 昵称/QQ号(必填)
+    mail: 邮箱(必填)
+    link: 网址(https://)
   option:
 
 # waline - A simple comment system with backend support fork from Valine
@@ -836,9 +843,13 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/css/butterfly_blog.css">
+    - <link rel="stylesheet" href="/css/blogmain.css">
+    - <link rel="stylesheet" href="/css/valine.css">
+    - <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/css/function.min.css">
   bottom:
-    # - <script src="/js/butterfly_blog.js"></script>
+    - <script src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
+    - <script data-pjax defer src="/js/chocolate.js"></script>
+    #- <script data-pjax defer src="/js/right_click_enable.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -865,7 +876,10 @@ CDN:
     # gitalk:
     # gitalk_css:
     # blueimp_md5:
-    # valine: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/valine/1.4.16/Valine.min.js
+    valine: https://fastly.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/valine_f/valine.min.js
+    wowjs: https://cdn.jsdelivr.net/gh/graingert/wow@1.3.0/dist/wow.min.js
+    wowjs_init: /js/wow_init.js
+    animate_css: https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
     # disqusjs:
     # disqusjs_css:
     # twikoo:
@@ -919,3 +933,66 @@ tag_plugins:
     iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
     carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
     tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+
+# 如果你有使用hexo-douban，可配置這個
+douban:
+  meta: true
+  movies_img: https://fastly.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/movie.jpg
+  books_img: https://fastly.jsdelivr.net/npm/blog-gallery@1.0.0/1/20200206161657.webp
+#   games_img:
+
+categoryBar:
+  enable: true
+  column:  odd # 显示列数,odd：3列 | even：4列
+  row: 2 #显示行数，默认两行，超过行数切换为滚动显示
+  descr:
+    - Good things to share
+    - Back end talk
+    - personal diary
+    - Front end serialization
+    - Butterfly theme
+    - Other items
+  cover:
+    - url('https://fastly.jsdelivr.net/npm/akilar-candyassets/image/cover1.webp')
+#    - '#abcdef' # HEX格式色值需要用''包裹，不然会被识别成注释
+#    - rgba(45,67,89,0.7)
+#    - linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%)
+    - url('https://fastly.jsdelivr.net/npm/akilar-candyassets/image/cover5.webp')
+    - url('https://fastly.jsdelivr.net/npm/akilar-candyassets/image/cover6.webp')
+
+wowjs:
+  enable: true #控制动画开关。true是打开，false是关闭
+  animateitem:
+    - class: recent-post-item #必填项，需要添加动画的元素的class
+      style: animate__zoomIn #必填项，需要添加的动画
+      duration: 1s #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 1s #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 100 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 1 #选填项，动画重复的次数
+    - class: card-widget
+      style: animate__zoomIn
+
+ghbdage:
+  enable: true
+  bdageitem:
+    - link: https://hexo.io/  # 标签跳转链接
+      shields: https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo #shields的API链接，填法参考本篇教程
+      message: 博客框架为Hexo_v6.2.0 #鼠标悬停时显示的信息
+    - link: https://butterfly.js.org/
+      shields: https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender
+      message: 主题版本Butterfly_v4.2.2
+#    - link: https://metroui.org.ua/index.html
+#      shields: https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
+#      message: 本站使用JsDelivr为静态资源提供CDN加速
+#    - link: https://vercel.com/
+#      shields: https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel
+#      message: 本站采用双线部署，默认线路托管于Vercel
+#    - link: https://vercel.com/
+#      shields: https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio
+#      message: 本站采用双线部署，联通线路托管于Coding
+    - link: https://github.com/
+      shields: https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub
+      message: 本站项目由Gtihub托管
+    - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+      shields: https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris
+      message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可

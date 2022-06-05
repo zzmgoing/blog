@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>钟子明</title>
   
-  <subtitle>钟子明</subtitle>
+  
   <link href="https://blog.zzming.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.zzming.cn/"/>
-  <updated>2022-06-01T16:16:02.574Z</updated>
+  <updated>2022-06-05T11:13:52.061Z</updated>
   <id>https://blog.zzming.cn/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://blog.zzming.cn/post/2756f2af.html"/>
     <id>https://blog.zzming.cn/post/2756f2af.html</id>
     <published>2022-05-28T21:28:28.000Z</published>
-    <updated>2022-06-01T16:16:02.574Z</updated>
+    <updated>2022-06-05T11:13:52.061Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Butterfly主题"><a href="#Butterfly主题" class="headerlink" title="Butterfly主题"></a>Butterfly主题</h1><p>主题地址：<a href="https://butterfly.js.org/">https://butterfly.js.org/</a></p><p>Github地址：<a href="https://github.com/jerryc127/hexo-theme-butterfly">https://github.com/jerryc127/hexo-theme-butterfly</a></p><h2 id="相关文档"><a href="#相关文档" class="headerlink" title="相关文档"></a>相关文档</h2><ul><li><a href="https://butterfly.js.org/posts/21cfbf15/">Butterfly 安裝文檔(一) 快速開始</a></li><li><a href="https://butterfly.js.org/posts/dc584b87/">Butterfly 安裝文檔(二) 主題頁面</a></li><li><a href="https://butterfly.js.org/posts/4aa8abbe/">Butterfly 安裝文檔(三) 主題配置-1</a></li><li><a href="https://butterfly.js.org/posts/ceeb73f/">Butterfly 安裝文檔(四) 主題配置-2</a></li><li><a href="https://butterfly.js.org/posts/98d20436/">Butterfly 安裝文檔(五) 主題問答</a></li><li><a href="https://butterfly.js.org/posts/4073eda/">Butterfly 安裝文檔(六) 進階教程</a></li><li><a href="https://butterfly.js.org/posts/b37b5fe3/">自定義代碼配色</a></li><li><a href="https://butterfly.js.org/posts/507c070f/">Butterfly添加全局吸底Aplayer教程</a></li><li><a href="https://butterfly.js.org/posts/ea33ab97/">自定義側邊欄</a></li></ul><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><ul><li><a href="https://cloud.tencent.com/developer/article/1987454">快速将Butterfly主题的CDN从jsDelivr切换至自建反向代理源</a></li><li><a href="https://blog.csdn.net/weixin_44318830/article/details/104884936">Hexo启动页面显示extends includes/layout.pug block content include includes</a></li><li><a href="https://blog.csdn.net/Galahadzhou/article/details/105355733">Hexo Permalink简化</a></li></ul><h2 id="主题美化"><a href="#主题美化" class="headerlink" title="主题美化"></a>主题美化</h2><ul><li><a href="https://akilar.top/posts/615e2dec/#%E5%BC%95%E7%94%A8-note">Tag Plugins Plus</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="Butterfly主题"><a href="#Butterfly主题" class="headerlink" title="Butterfly主题"></a>Butterfly主题</h1><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly"><img src="https://github-readme-stats.vercel.app/api/pin/?username=jerryc127&repo=hexo-theme-butterfly&theme=vue&show_owner=true"/></a><h2 id="相关文档"><a href="#相关文档" class="headerlink" title="相关文档"></a>相关文档</h2><ul><li><a href="https://butterfly.js.org/posts/21cfbf15/">Butterfly 安裝文檔(一) 快速開始</a></li><li><a href="https://butterfly.js.org/posts/dc584b87/">Butterfly 安裝文檔(二) 主題頁面</a></li><li><a href="https://butterfly.js.org/posts/4aa8abbe/">Butterfly 安裝文檔(三) 主題配置-1</a></li><li><a href="https://butterfly.js.org/posts/ceeb73f/">Butterfly 安裝文檔(四) 主題配置-2</a></li><li><a href="https://butterfly.js.org/posts/98d20436/">Butterfly 安裝文檔(五) 主題問答</a></li><li><a href="https://butterfly.js.org/posts/4073eda/">Butterfly 安裝文檔(六) 進階教程</a></li><li><a href="https://butterfly.js.org/posts/b37b5fe3/">自定義代碼配色</a></li><li><a href="https://butterfly.js.org/posts/507c070f/">Butterfly添加全局吸底Aplayer教程</a></li><li><a href="https://butterfly.js.org/posts/ea33ab97/">自定義側邊欄</a></li></ul><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><ul><li><a href="https://cloud.tencent.com/developer/article/1987454">快速将Butterfly主题的CDN从jsDelivr切换至自建反向代理源</a></li><li><a href="https://blog.csdn.net/weixin_44318830/article/details/104884936">Hexo启动页面显示extends includes/layout.pug block content include includes</a></li><li><a href="https://blog.csdn.net/Galahadzhou/article/details/105355733">Hexo Permalink简化</a></li></ul><h2 id="主题美化"><a href="#主题美化" class="headerlink" title="主题美化"></a>主题美化</h2><ul><li><a href="https://akilar.top/posts/615e2dec/#%E5%BC%95%E7%94%A8-note">Akilarの外挂标签引入</a></li><li><a href="https://tzy1997.com/articles/0xiipgum/">基于Butterfly的外挂标签引入</a></li><li><a href="https://tzy1997.com/articles/hexo541u/">Hexo+Butterfly主题美化</a></li></ul>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;Butterfly主题&quot;&gt;&lt;a href=&quot;#Butterfly主题&quot; class=&quot;headerlink&quot; title=&quot;Butterfly主题&quot;&gt;&lt;/a&gt;Butterfly主题&lt;/h1&gt;&lt;p&gt;主题地址：&lt;a href=&quot;https://butterfly.js</summary>
+    <summary type="html">&lt;h1 id=&quot;Butterfly主题&quot;&gt;&lt;a href=&quot;#Butterfly主题&quot; class=&quot;headerlink&quot; title=&quot;Butterfly主题&quot;&gt;&lt;/a&gt;Butterfly主题&lt;/h1&gt;&lt;a class=&quot;ghcard&quot; rel=&quot;external nofol</summary>
       
     
     
