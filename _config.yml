@@ -112,7 +112,7 @@ deploy:
 
 douban:
   user: 183895557
-  builtin: false
+  builtin: true
   book:
     title: '腹有诗书气自华'
     quote: 'One who is filled with knowledge always behaves with elegance.'
