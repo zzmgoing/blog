@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>钟子明</title>
+  <title>钟子明&amp;博客</title>
   
   
   <link href="https://blog.zzming.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.zzming.cn/"/>
-  <updated>2022-06-05T11:13:52.061Z</updated>
+  <updated>2022-06-11T10:18:20.685Z</updated>
   <id>https://blog.zzming.cn/</id>
   
   <author>
@@ -15,6 +15,201 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android面试系列总结篇</title>
+    <link href="https://blog.zzming.cn/post/99fd5a78.html"/>
+    <id>https://blog.zzming.cn/post/99fd5a78.html</id>
+    <published>2022-06-11T07:43:13.000Z</published>
+    <updated>2022-06-11T10:18:20.685Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><div class='checkbox green checked'><input type="checkbox" checked="checked"/>            <p>熟练掌握</p>            </div> <div class='checkbox red'><input type="checkbox" />            <p>未熟练掌握</p>            </div><p>由于各种各类的知识点及面试相关问题较多，在此仅记录总结比较重要的基础知识点和高频的面试题。</p></blockquote><h1 id="Android面试之网络篇"><a href="#Android面试之网络篇" class="headerlink" title="Android面试之网络篇"></a><a href="a3e07e13.html">Android面试之网络篇</a></h1><div class='checkbox green checked'><input type="checkbox" checked="checked"/>            <p>TCP和UDP</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>HTTP和HTTPS</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>HTTP1.0、1.1和2.0的区别</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>HTTPS原理和请求过程</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>对称和非对称加密算法</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>网络耗时优化</p>            </div><h1 id="Android面试之Java基础篇"><a href="#Android面试之Java基础篇" class="headerlink" title="Android面试之Java基础篇"></a><a href="49d5b74.html">Android面试之Java基础篇</a></h1><div class='checkbox red'><input type="checkbox" />            <p>特点和特性</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>面向对象和面向过程</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>八大基本数据类型</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>四大引用类型</p>            </div><details class="folding-tag" yellow><summary> 常见面试题锦集 </summary>              <div class='content'>              <ul><li>equals方法和==的区别</li><li>String、StringBuilder和StringBuffer区别</li><li>为什么String不可变，不可变对象的好处</li><li>final、finally、finalize区别</li><li>Exception和Error有什么区别</li><li>RunTimeException和其他Exception区别</li><li>泛型和类型擦除</li></ul>              </div>            </details><h1 id="Android面试之Java进阶篇"><a href="#Android面试之Java进阶篇" class="headerlink" title="Android面试之Java进阶篇"></a><a href="2615f0a7.html">Android面试之Java进阶篇</a></h1><div class='checkbox red'><input type="checkbox" />            <p>JVM的内存分配</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>GC垃圾回收机制</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>Class类的加载过程</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>ClassLoader加载机制</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>线程、线程池、多线程</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>锁、死锁</p>            </div><details class="folding-tag" yellow><summary> 常见面试题锦集 </summary>              <div class='content'>              <ul><li>线程池ThreadPool的构造函数</li><li>如何设计一个线程池</li><li>Class类的加载执行顺序(包含静态变量和方法)</li><li>volatile的作用，能否保证线程安全</li><li>synchronized和volatile的区别</li><li>synchronized有哪些优化</li></ul>              </div>            </details><h1 id="Android面试之基础篇"><a href="#Android面试之基础篇" class="headerlink" title="Android面试之基础篇"></a><a href="cb6039dc.html">Android面试之基础篇</a></h1><div class='checkbox red'><input type="checkbox" />            <p>Activity</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>Fragment</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>Service</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>BroadcastReceiver</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>ContentProvider</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>四大组件区别和Context</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>Animation</p>            </div><details class="folding-tag" yellow><summary> 常见面试题锦集 </summary>              <div class='content'>              <ul><li>APK安装流程</li><li>Activity启动流程</li><li>Serializable和Parcelable区别</li><li>Activity、Window、View关系</li><li>Activity获取View宽高的三种方式</li><li>LruCache缓存机制</li><li>SharedPreferences优缺点，如何优化</li><li>ListView、RecyclerView区别</li></ul>              </div>            </details><h1 id="Android面试之进阶篇"><a href="#Android面试之进阶篇" class="headerlink" title="Android面试之进阶篇"></a><a href="e9e8920f.html">Android面试之进阶篇</a></h1><div class='checkbox red'><input type="checkbox" />            <p>Handler机制</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>Binder机制</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>进程和多线程</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>View事件分发</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>View绘制流程</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>Gradle构建流程</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>性能优化</p>            </div><details class="folding-tag" yellow><summary> 常见面试题锦集 </summary>              <div class='content'>              <ul><li>Handler延迟消息机制</li><li>Handler异步消息和同步屏障</li><li>Looper怎么保证在线程里唯一</li><li>进程间通信方式有哪些</li><li>内存映射(mmap)原理</li><li>Binder的最大线程数量</li></ul>              </div>            </details><h1 id="Android面试之源码篇"><a href="#Android面试之源码篇" class="headerlink" title="Android面试之源码篇"></a><a href="ad6a412c.html">Android面试之源码篇</a></h1><div class='checkbox red'><input type="checkbox" />            <p>Kotlin空安全原理</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>Kotlin协程原理</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>OKHttp原理</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>Retrofit原理</p>            </div><h1 id="Android面试之数据结构篇"><a href="#Android面试之数据结构篇" class="headerlink" title="Android面试之数据结构篇"></a><a href="ad6a412c.html">Android面试之数据结构篇</a></h1><div class='checkbox red'><input type="checkbox" />            <p>线性结构</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>非线性结构</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>ArrayList数据结构</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>HashMap数据结构</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>HashSet数据结构</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>二叉树的遍历和深度</p>            </div><h1 id="Android面试之算法篇"><a href="#Android面试之算法篇" class="headerlink" title="Android面试之算法篇"></a><a href="b420aa0f.html">Android面试之算法篇</a></h1><div class='checkbox red'><input type="checkbox" />            <p>算法的特征和设计原则</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>算法的空间和时间复杂度</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>算法的分类和理解</p>            </div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;div class=&#39;checkbox green checked&#39;&gt;&lt;input type=&quot;checkbox&quot; checked=&quot;checked&quot;/&gt;
+            &lt;p&gt;熟练掌握&lt;/p&gt;
+            &lt;/div&gt; &lt;div </summary>
+      
+    
+    
+    
+    <category term="Android" scheme="https://blog.zzming.cn/categories/Android/"/>
+    
+    
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android面试之算法篇</title>
+    <link href="https://blog.zzming.cn/post/b420aa0f.html"/>
+    <id>https://blog.zzming.cn/post/b420aa0f.html</id>
+    <published>2022-06-11T07:40:10.000Z</published>
+    <updated>2022-06-11T04:23:49.840Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Android面试之数据结构篇</title>
+    <link href="https://blog.zzming.cn/post/30ef2a74.html"/>
+    <id>https://blog.zzming.cn/post/30ef2a74.html</id>
+    <published>2022-06-11T07:38:10.000Z</published>
+    <updated>2022-06-10T15:38:10.700Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Android面试之源码篇</title>
+    <link href="https://blog.zzming.cn/post/ad6a412c.html"/>
+    <id>https://blog.zzming.cn/post/ad6a412c.html</id>
+    <published>2022-06-10T07:13:39.000Z</published>
+    <updated>2022-06-10T15:28:03.475Z</updated>
+    
+    
+    
+    
+    <category term="Android" scheme="https://blog.zzming.cn/categories/Android/"/>
+    
+    
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android面试之进阶篇</title>
+    <link href="https://blog.zzming.cn/post/e9e8920f.html"/>
+    <id>https://blog.zzming.cn/post/e9e8920f.html</id>
+    <published>2022-06-09T07:13:20.000Z</published>
+    <updated>2022-06-10T15:28:03.475Z</updated>
+    
+    
+    
+    
+    <category term="Android" scheme="https://blog.zzming.cn/categories/Android/"/>
+    
+    
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android面试之基础篇</title>
+    <link href="https://blog.zzming.cn/post/cb6039dc.html"/>
+    <id>https://blog.zzming.cn/post/cb6039dc.html</id>
+    <published>2022-06-08T07:13:09.000Z</published>
+    <updated>2022-06-10T15:28:03.459Z</updated>
+    
+    
+    
+    
+    <category term="Android" scheme="https://blog.zzming.cn/categories/Android/"/>
+    
+    
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android面试之Java进阶篇</title>
+    <link href="https://blog.zzming.cn/post/2615f0a7.html"/>
+    <id>https://blog.zzming.cn/post/2615f0a7.html</id>
+    <published>2022-06-07T07:12:11.000Z</published>
+    <updated>2022-06-10T15:28:03.491Z</updated>
+    
+    
+    
+    
+    <category term="Android" scheme="https://blog.zzming.cn/categories/Android/"/>
+    
+    
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android面试之Java基础篇</title>
+    <link href="https://blog.zzming.cn/post/49d5b74.html"/>
+    <id>https://blog.zzming.cn/post/49d5b74.html</id>
+    <published>2022-06-06T07:11:38.000Z</published>
+    <updated>2022-06-11T13:29:47.887Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="特点和特性"><a href="#特点和特性" class="headerlink" title="特点和特性"></a>特点和特性</h1><p>Java特点：跨平台、面向对象、安全性、多线程、简单易用、可维护性高。</p><div class="table-container"><table><thead><tr><th>特点</th><th>描述</th></tr></thead><tbody><tr><td>跨平台</td><td>Java可以不受计算机的硬件和操作系统的限制，而独立于平台。因为Java中有自带的JVM，它执行经过javac命令编译完成的java源代码所生成的class文件转换成机器码语言在平台上操作。</td></tr><tr><td>面向对象</td><td>万物皆对象，Java以对象为基本粒度。对象中包含属性和方法，对象的说明用属性来表达，方法用来操作对象。这样可以对应用程序进行解耦，提高代码的可扩展性和重用性。</td></tr><tr><td>安全性</td><td>语言级安全性：Java的数据结构是完整的对象，这些封装过的数据类型具有安全性。<br>编译时安全性：编译时要进行Java语义和语法的检查，保证每个变量对应一个相应的值，编译后生成Java类。<br>运行时安全性：表示在运行Java类时要进行字节码校检器校检之后才可以运行。<br>可执行代码安全性：Java类在网络上使用时，对它的权限进行了设置，保证了被访问用户的安全性。</td></tr><tr><td>多线程</td><td>多线程是指允许一个应用程序同时存在两个或两个以上的线程，用于支持事务并发和多任务处理。<br>Java除了内置的多线程技术之外，还定义了一些类、方法等来建立和管理用户定义的多线程。</td></tr><tr><td>简单易用</td><td>就是指java源代码可以不用在特定环境下编写。</td></tr><tr><td>可维护性高</td><td>—</td></tr></tbody></table></div><p>四大特性：继承、封装、多态、抽象。</p><div class="table-container"><table><thead><tr><th>特性</th><th>描述</th></tr></thead><tbody><tr><td>继承</td><td>继承要有一定的层次结构，还要具备一定的可传递性;<br>子类只能继承父类<span class='p red'>非私有化</span>的成员变量和方法；<br>实行<span class='p red'>就近原则</span>，有局部变量优先使用局部变量，没有就使用子类成员变量，子类没有则使用父类成员变量。</td></tr><tr><td>封装</td><td>将抽象出来的属性和方法写在一个类中就是封装，将不需要对外提供的内容隐藏起来，提供公共的访问方式；<br>封装就是包装的过程，但封装不是绝对的封装，如果其他程序要获取已经封装好的数据，就要通过程序指定的接口或方法才能获取。</td></tr><tr><td>多态</td><td>多态是同一个行为具有多个不同表现形式或形态的能力；<br>多态就是同一个接口，使用不同的实例而执行不同操作；<br>多态性是对象多种表现形式的体现。</td></tr><tr><td>抽象</td><td>就是对同一类事物共有的属性（特征）和方法（功能/行为）进行抽取、归纳、总结；<br>抽象类不能实例化为一个对象，就比如水果是苹果，香蕉，梨等一类事物抽象出来的。</td></tr></tbody></table></div><h1 id="面向对象和面向过程"><a href="#面向对象和面向过程" class="headerlink" title="面向对象和面向过程"></a>面向对象和面向过程</h1><h1 id="八大基本数据类型"><a href="#八大基本数据类型" class="headerlink" title="八大基本数据类型"></a>八大基本数据类型</h1><p>Java 的两大数据类型：内置数据类型、引用数据类型。</p><div class="table-container"><table><thead><tr><th>类型</th><th>描述</th></tr></thead><tbody><tr><td>内置数据类型</td><td>byte、short、int、long、float、double、boolean、char</td></tr><tr><td>引用数据类型</td><td>引用类型指向一个对象，<span class='p red'>指向对象的变量是引用变量</span>。<br>对象、数组都是引用数据类型，所有引用类型的默认值都是<span class='p red'>null</span>。</td></tr></tbody></table></div><p>八大基本数据类型占用空间和范围：</p><div class="table-container"><table><thead><tr><th>类型</th><th>占用存储空间</th><th>表示范围</th></tr></thead><tbody><tr><td>byte</td><td>1字节</td><td>-2^7 ~ 2^7 - 1（-128 ~ 127）</td></tr><tr><td>short</td><td>2字节</td><td>-2^15 ~ 2^15 - 1（-32768 ~ 32767）</td></tr><tr><td>int</td><td>4字节</td><td>-2^31 ~ 2^31 - 1（-2147483648 ~ 2147483647）</td></tr><tr><td>long</td><td>8字节</td><td>-2^63 ~ 2^63 - 1</td></tr><tr><td>float</td><td>4字节</td><td>-3.403E38 ~ 3.403E38</td></tr><tr><td>double</td><td>8字节</td><td>-1.798E308 ~ 1.798E308</td></tr><tr><td>boolean</td><td>1字节</td><td>true、false</td></tr><tr><td>char</td><td>2字节</td><td>0 ~ 65535</td></tr></tbody></table></div><h1 id="四大引用类型"><a href="#四大引用类型" class="headerlink" title="四大引用类型"></a>四大引用类型</h1><blockquote><p>从Java SE2开始，就提供了四种类型的引用：强引用、软引用、弱引用和虚引用。<br>Java中提供这四种引用类型主要有两个目的：<br>1、通过代码的方式决定某些对象的生命周期；<br>2、有利于JVM进行垃圾回收。</p></blockquote><div class="table-container"><table><thead><tr><th>类别</th><th>回收机制</th><th>用途</th><th>生存时间</th></tr></thead><tbody><tr><td>强引用</td><td>从不回收</td><td>对象状态</td><td>JVM停止运行时</td></tr><tr><td>软引用</td><td>内存不足时回收</td><td>缓存</td><td>内存不足</td></tr><tr><td>弱引用</td><td>对象不被引用时回收</td><td>缓存</td><td>GC运行后</td></tr><tr><td>虚引用</td><td>对象被回收时</td><td>管理控制精确内存稳定性</td><td>unknown</td></tr></tbody></table></div><h1 id="常见面试题锦集"><a href="#常见面试题锦集" class="headerlink" title="常见面试题锦集"></a>常见面试题锦集</h1><h2 id="equals方法和-的区别"><a href="#equals方法和-的区别" class="headerlink" title="equals方法和==的区别"></a>equals方法和==的区别</h2><ol><li><p>对于==，如果作用于基本数据类型的变量，则直接比较其存储的 “值”是否相等；<br>如果作用于引用类型的变量，则比较的是所指向的对象的地址。</p></li><li><p>对于equals方法，注意：equals方法不能作用于基本数据类型的变量;<br>如果没有对equals方法进行重写，则比较的是引用类型的变量所指向的对象的地址；<br>诸如String、Date等类对equals方法进行了重写的话，比较的是所指向的对象的内容。</p></li></ol><h2 id="String、StringBuilder和StringBuffer区别"><a href="#String、StringBuilder和StringBuffer区别" class="headerlink" title="String、StringBuilder和StringBuffer区别"></a>String、StringBuilder和StringBuffer区别</h2><ul><li>String、StringBuffer是线程安全的，StringBuilder是非线程安全。</li><li>StringBuffer与StringBuilder的对象存储在堆中，String对象存储在Constant String Pool(字符串常量池)。</li><li>StringBuffer和StringBuilder是可变对象，String一旦创建无法修改，并且String是线程安全的。</li></ul><h2 id="为什么String不可变，不可变对象的好处"><a href="#为什么String不可变，不可变对象的好处" class="headerlink" title="为什么String不可变，不可变对象的好处"></a>为什么String不可变，不可变对象的好处</h2><p>主要是为了安全。<br>不可变对象的好处主要也是保证了线程安全。</p><p>由于String广泛用于java类中的参数，所以安全是非常重要的考虑点。包括线程安全，打开文件，存储数据密码等等。<br>因为java字符串是不可变的，可以在java运行时<span class='p red'>节省大量java堆空间</span>。因为不同的字符串变量可以引用池中的相同的字符串。如果字符串是可变得话，任何一个变量的值改变，就会反射到其他变量，那字符串池也就没有任何意义了。<br>String的不变性保证哈希码始终一，所以在用于HashMap等类的时候就不需要重新计算哈希码，提高效率。</p><h2 id="final、finally、finalize区别"><a href="#final、finally、finalize区别" class="headerlink" title="final、finally、finalize区别"></a>final、finally、finalize区别</h2><ol><li><span class='p blue'>final</span>：修饰类，方法，变量（表示不可变）。</li><li><span class='p blue'>finally</span>：finally作为异常处理的一部分，它只能用在try/catch语句中，并且附带一个语句块，表示这段语句最终一定会被执行（<span class='p red'>不管有没有抛出异常</span>），经常被用在需要释放资源的情况下。</li><li><span class='p blue'>finalize</span>：finalize()是在java.lang.Object里定义的，也就是说每一个对象都有这么个方法。这个方法在gc启动，该对象被回收的时候被调用。</li></ol><h2 id="Exception和Error有什么区别"><a href="#Exception和Error有什么区别" class="headerlink" title="Exception和Error有什么区别"></a>Exception和Error有什么区别</h2><blockquote><p>首先Exception和Error都是继承于Throwable 类，在 Java 中只有 Throwable 类型的实例才可以被抛出（throw）或者捕获（catch），它是异常处理机制的基本组成类型。<br>Exception和Error体现了JAVA这门语言对于异常处理的两种方式。</p></blockquote><ul><li>Exception是java程序运行中<span class='p red'>可预料</span>的异常情况，我们<span class='p red'>可以捕获</span>到这种异常，并且对这种异常进行业务外的处理。</li><li>Error是java程序运行中<span class='p red'>不可预料</span>的异常情况，这种异常发生以后，会直接导致JVM不可处理或者不可恢复的情况。所以这种异常<span class='p red'>不能被捕获到</span>，比如OutOfMemoryError、NoClassDefFoundError等。</li></ul><p>其中的Exception又分为<span class='p red'>检查性异常</span>和<span class='p red'>非检查性异常</span>。</p><ul><li>检查性异常必须在编写代码时，使用try catch捕获（比如：IOException异常）。</li><li>非检查性异常在代码编写时，可以忽略捕获操作（比如：ArrayIndexOutOfBoundsException），这种异常是在代码编写或者使用过程中通过规范可以避免发生的。</li></ul><h2 id="RunTimeException和其他Exception区别"><a href="#RunTimeException和其他Exception区别" class="headerlink" title="RunTimeException和其他Exception区别?"></a>RunTimeException和其他Exception区别?</h2><p>其他Exception，受检查异常。可以理解为错误，必须要开发者解决以后才能编译通过，解决的方法有两种：<span class='p red'>throw到上层</span>或<span class='p red'>try-catch处理</span>。<br>RunTimeException：运行时异常，又称不受检查异常，不受检查！不受检查！！不受检查！！！<br>重要的事情说三遍，因为不受检查，所以在代码中可能会有RunTimeException时Java编译检查时不会告诉你有这个异常，但是在实际运行代码时则会暴露出来，比如经典的1/0，空指针等。如果不处理也会被Java自己处理。</p><h2 id="泛型和类型擦除"><a href="#泛型和类型擦除" class="headerlink" title="泛型和类型擦除"></a>泛型和类型擦除</h2><blockquote><p>泛型简单说就是能广泛适用的类型。<br>还有一种较为准确的说法就是为了参数化类型，就是可以将类型当作参数传递给一个类或者是方法。</p></blockquote><ul><li>因为泛型可以使数据的类别像参数一样由外部传递进来，它提供了一种扩展能力，更符合抽象开发。</li><li>当具体的类型确定后，泛型又提供了一种类型检测的机制，只有相匹配的数据才能正常的赋值，否则编译器就不通过。</li><li>泛型提高了程序代码的可读性，不必要等到运行的时候才去强制转换。</li></ul><p>泛型类中的类型参数与泛型方法中的类型参数是没有相应的联系的，<span class='p red'>泛型方法始终以自己定义的类型参数为准</span>。</p><h3 id="通配符-？"><a href="#通配符-？" class="headerlink" title="通配符 ？"></a>通配符 ？</h3><p>通配符的出现是为了指定泛型中的类型范围。</p><ul><li>&lt;?&gt;被称作无限定的通配符，会被转译为Object类型。</li><li>&lt;? extends T&gt;被称作有上限的通配符，会被转译为T的类型。</li><li>&lt;? super T&gt;被称作有下限的通配符。</li></ul><h3 id="类型擦除"><a href="#类型擦除" class="headerlink" title="类型擦除"></a>类型擦除</h3><blockquote><p>泛型信息只存在于代码编译期间，在编译器编译生成字节码后，与泛型相关的信息会被擦除掉，专业术语叫做类型擦除。</p></blockquote><p>在泛型类被类型擦除的时候，之前泛型类中的类型参数部分如果没有指定上限，如 <T>则会被转译成普通的 Object 类型，如果指定了上限如 <T extends String>则类型参数就被替换成类型上限。</p><p>泛型类或者泛型方法中，不接受8种基本数据类型如int、boolean等，而是需要使用它们的包装类Integer、Boolean等。</p><p><strong>为什么会有类型擦除？</strong></p><p>这是Java实现泛型的方式，也叫作<em>伪泛型</em>。</p><p>Java的泛型在底层实现上使用了Object引用，编译器可以通过指定的泛型进行静态类型检查，在编译后又擦除为Object类型。<br>如果要实现真泛型的话，就需要修改JVM的源码，让虚拟机正确地读取和校验泛型信息，而之前的Java是没有这一概念的。<br>所以为了兼容旧程序，还需要为原本不支持泛型的API添加一套泛型API。</p><blockquote><p><a href="https://zhuanlan.zhihu.com/p/104600952">Java 泛型与类型擦除</a></p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;特点和特性&quot;&gt;&lt;a href=&quot;#特点和特性&quot; class=&quot;headerlink&quot; title=&quot;特点和特性&quot;&gt;&lt;/a&gt;特点和特性&lt;/h1&gt;&lt;p&gt;Java特点：跨平台、面向对象、安全性、多线程、简单易用、可维护性高。&lt;/p&gt;
+&lt;div class=&quot;table-</summary>
+      
+    
+    
+    
+    <category term="Android" scheme="https://blog.zzming.cn/categories/Android/"/>
+    
+    
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android面试之网络篇</title>
+    <link href="https://blog.zzming.cn/post/a3e07e13.html"/>
+    <id>https://blog.zzming.cn/post/a3e07e13.html</id>
+    <published>2022-06-05T06:40:51.000Z</published>
+    <updated>2022-06-11T08:57:13.041Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="TCP和UDP"><a href="#TCP和UDP" class="headerlink" title="TCP和UDP"></a>TCP和UDP</h1><blockquote><p>TCP（Transmission Control Protocol，传输控制协议）提供的是面向连接，可靠的字节流服务。<br>即客户和服务器交换数据前，必须现在双方之间建立一个TCP连接，之后才能传输数据。并且提供超时重发，丢弃重复数据，检验数据，流量控制等功能，保证数据能从一端传到另一端。</p><p>UDP（User Data Protocol，用户数据报协议）是一个简单的面向数据报的传输层协议。<br>UDP不提供可靠性，只是把应用程序传给IP层的数据报发送出去，但是不能保证它们能到达目的地。由于UDP在传输数据报前不用在客户和服务器之间建立一个连接，且没有超时重发等机制，所以传输速度很快。</p></blockquote><p>TCP和UDP的相同点：都是<strong>传输层</strong>协议。</p><p>TCP和UDP的不同点：<strong>报头不同、特点不同、协议不同</strong>。</p><div class="table-container"><table><thead><tr><th>不同点</th><th>TCP</th><th>UDP</th></tr></thead><tbody><tr><td>报头不同</td><td>报头最大长度60个字节</td><td>UDP数据报最大长度64K（包含UDP首部），如果数据长度超过64K就需要在应用层手动分包，UDP无法保证包序，需要在应用层进行编号</td></tr><tr><td>特点不同</td><td><span class='p red'>面向连接：</span>客户端和服务端的三次握手，四次挥手<br><span class='p red'>可靠传输：</span>序列号，确认应答机制，超时重传，拥塞控制<br><span class='p red'>面向字节流：</span>创建一个TCP的Socket, 同时在内核中创建一个发送缓冲区和一个接收缓冲区；另一方面, TCP的一个连接, 既有发送缓冲区, 也有接收缓冲区, 那么对于这一个连接, 既可以读数据, 也可以写数据. 这个概念叫做全双工</td><td><span class='p red'>无连接：</span>知道对端的IP和端口号就能直接进行传输, 不需要建立连接<br><span class='p red'>不可靠：</span>没有确认机制, 没有重传机制; 如果因为网络故障该段无法发到对方, UDP协议层也不会给应用层返回任何错误信息<br><span class='p red'>面向数据报：</span>不能够灵活的控制读写数据的次数和数量，应用层交给UDP多长的报文, UDP原样发送, 既不会拆分, 也不会合并<br><span class='p red'>数据接收不够灵活：</span>但是能够明确区分两个数据包，避免粘包问题</td></tr><tr><td>协议不同</td><td><strong>HTTP</strong>(超文本传输协议)、<strong>HTTPS</strong>(超文本传输安全协议)、<strong>SSH</strong>(安全外壳协议)、<strong>Telnet</strong>(电信网络协议)、<strong>FTP</strong>(文件传输协议)、<strong>SMTP</strong>(简单邮件传输协议)</td><td><strong>NFS</strong>(网络文件系统)、<strong>TFTP</strong>(简单文件传输协议)、<strong>DHCP</strong>(动态主机配置协议)、<strong>BOOTP</strong>(启动协议, 用于无盘设备启动)、<strong>DNS</strong>(域名解析协议)</td></tr></tbody></table></div><h2 id="TCP-IP"><a href="#TCP-IP" class="headerlink" title="TCP/IP"></a>TCP/IP</h2><p>TCP/IP一般指的是TCP/IP协议簇，主要包括了多个不同网络间实现信息传输涉及到的各种协议。主要包括以下几层：</p><ul><li>应用层：主要提供数据和服务。比如HTTP，FTP，DNS等</li><li>传输层：负责数据的组装，分块。比如TCP，UDP等</li><li>网络层：负责告诉通信的目的地，比如IP等</li><li>数据链路层：负责连接网络的硬件部分，比如以太网，WIFI等</li></ul><h2 id="TCP沾包问题"><a href="#TCP沾包问题" class="headerlink" title="TCP沾包问题"></a>TCP沾包问题</h2><p>首先要明确，粘包问题中的<em>包</em>，是指的应用层的数据包。</p><ul><li>在TCP的协议头中，没有如同UDP一样的<em>报文长度</em>这样的字段，但是有一个序号这样的字段；  </li><li>站在传输层的角度，TCP是一个一个报文过来的，按照序号排好序放在缓冲区中；  </li><li>站在应用层的角度，看到的只是一串连续的字节数据，那么应用程序看到了这么一连串的字节数据，就不知道从哪个部分开始到哪个部分是一个完整的应用层数据包。  </li></ul><p>解决方案：<strong>明确两个包之间的边界。</strong></p><ol><li>对于定长的包，保证每次都按固定大小读取即可;  </li><li>对于变长的包，可以在报头的位置, 约定一个包总长度的字段, 从而就知道了包的结束位置;  </li><li>对于变长的包，还可以在包和包之间使用明确的分隔符；  </li><li>TLV格式的数据传输。</li></ol><h1 id="HTTP和HTTPS"><a href="#HTTP和HTTPS" class="headerlink" title="HTTP和HTTPS"></a>HTTP和HTTPS</h1><blockquote><p>Http：是互联网上应用最为广泛的一种网络协议，是一个客户端和服务器端请求和应答的标准（TCP），用于从WWW服务器传输超文本到本地浏览器的传输协议，它可以使浏览器更加高效，使网络传输减少。</p><p>Https：是以安全为目标的HTTP通道，简单讲是Http的安全版，即Http下加入SSL层，Https的安全基础是SSL，因此加密的详细内容就需要SSL。</p></blockquote><p>HTTP-TCP-IP</p><p>HTTPS-<span class='p red'>SSL或TLS</span>-TCP-IP</p><ul><li>SSL（Secure Socket Layer，安全套接字层）：1994年为 Netscape 所研发，SSL 协议位于 TCP/IP 协议与各种应用层协议之间，为数据通讯提供安全支持。</li><li>TLS（Transport Layer Security，传输层安全）：其前身是 SSL，它最初的几个版本（SSL 1.0、SSL 2.0、SSL 3.0）由网景公司开发，1999年从 3.1 开始被 IETF 标准化并改名，发展至今已经有 TLS 1.0、TLS 1.1、TLS 1.2、TLS 1.3  四个版本。SSL3.0和TLS1.0由于存在安全漏洞，已经很少被使用到。目前使用最广泛的是TLS 1.1、TLS 1.2、TLS 1.3。</li></ul><h2 id="Http和Https的不同点"><a href="#Http和Https的不同点" class="headerlink" title="Http和Https的不同点"></a>Http和Https的不同点</h2><div class="table-container"><table><thead><tr><th>区别</th><th>Http</th><th>Https</th></tr></thead><tbody><tr><td>端口</td><td>80</td><td>443</td></tr><tr><td>证书</td><td>不需要</td><td>需要到CA申请证书，一般免费证书较少，因而需要一定费用</td></tr><tr><td>传输方式</td><td>明文传输</td><td>具有安全性的ssl加密传输</td></tr><tr><td>安全性</td><td>连接简单，无状态，安全性低</td><td>ssl+http构建的可进行加密传输、身份认证的网络协议，更加安全</td></tr></tbody></table></div><h1 id="HTTP1-0、1-1和2-0的区别"><a href="#HTTP1-0、1-1和2-0的区别" class="headerlink" title="HTTP1.0、1.1和2.0的区别"></a>HTTP1.0、1.1和2.0的区别</h1><h2 id="HTTP1-1相对于1-0的优化"><a href="#HTTP1-1相对于1-0的优化" class="headerlink" title="HTTP1.1相对于1.0的优化"></a>HTTP1.1相对于1.0的优化</h2><ul><li><span class='p red'>缓存的处理：</span>1.0根据header头的expires作为缓存依据，1.1引入了更多的缓存控制策略。（Entity tag、If-match）</li><li><span class='p red'>带宽的优化：</span>1.0请求对象时服务器会返回整个对象，并且不支持断点续传，1.1在请求头加入了range头域，可以请求资源的某一部分，节省了带宽。</li><li><span class='p red'>host处理：</span>1.1中请求和响应都支持host头域，请求中没有的话会报错（400）。支持host头域是因为一个服务器可以部署多个虚拟主机。</li><li><span class='p red'>长链接优化：</span>一个TCP连接可以传送多个HTTP请求和响应，减少了建立多个连接的消耗和延迟，默认打开了keep-alive，一定程度上弥补了1.0每次请求都要重新连接的缺陷。</li></ul><h2 id="HTTP2-0相对于1-x的优化"><a href="#HTTP2-0相对于1-x的优化" class="headerlink" title="HTTP2.0相对于1.x的优化"></a>HTTP2.0相对于1.x的优化</h2><ul><li>HTTP2请求<span class='p red'>报文头部采用二进制格式</span>传输，取代了HTTP1.x的文本格式，二进制格式解析更高效。</li><li>HTTP2的<span class='p red'>多路复用</span>解决了连接效率的问题，在一个TCP连接中可以存在多个流，通过帧中的标识知道属于哪个请求，可以避免HTTP旧版本中的线头阻塞问题，极大的提高了传输效率。</li></ul><p>Http1.0每次请求都会建立一次TCP连接，也就是3次握手4次挥手，这个过程在一次请求中占用了比较长的时间；<br>Http1.1开启了Keep-Alive，解决了多次连接的问题，但是依然有两个效率上的问题：串行文件传输消耗时间（单通道）、连接数过多服务器承载的最大并发数有限。</p><p><strong>多路复用：</strong></p><ul><li>同域名下所有通信都在单个连接上完成，消除了因多个TCP连接而带来的延时和内存消耗。</li><li>单个连接上可以并行交错的请求和响应，之间互不干扰。</li></ul><h1 id="HTTPS原理和请求过程"><a href="#HTTPS原理和请求过程" class="headerlink" title="HTTPS原理和请求过程"></a>HTTPS原理和请求过程</h1><blockquote><p>因为HTTP有被窃听、被篡改、被冒充的风险，所以我们需要对HTTP请求进行加密，也就是在HTTP下面加入SSL层，进行证书的校验和数据的加密传输。</p></blockquote><p>服务端需要在公认的证书颁发机构（CA）申请证书，证书一般包含了有效期、证书所有者、公钥、签名等信息；<br>当客户端发起HTTPS请求时，服务端需要将证书发送给客户端进行验证，验证通过后才能进行有效的数据传输。</p><ul><li>客户端发起请求时会携带所支持的SSL版本，加密算法和Hash算法等信息；</li><li>服务端接收到请求后会选择加密算法与Hash算法，将自己的身份信息以证书的形式返回给客户端；</li><li>客户端首先会去验证证书的有效性（也就是证书颁发机构），查看是否可信任；</li><li>证书可信则根据本地根证书的<span class='p red'>CA公钥</span>解密服务器证书获得内容和签名，验证签名、域名、有效期等；</li><li>如果验证通过，就使用服务器提供的公钥加密一串随机值发送给服务端；</li><li>服务端接收加密数据后使用私钥进行解密，得到随机值；</li><li>服务端将解密后的随机值作为私钥对数据进行加密（选择的加密算法）然后返回给客户端；</li><li>客户端用这个随机值（私钥）对服务端返回的数据进行解密，完成数据传输。</li></ul><p>Https在传输证书和秘钥的过程中，使用的是非对称加密算法（保证绝对安全）；<br>完成验证后使用的是对称算法进行数据传输（保证传输效率）。</p><h1 id="对称和非对称加密算法"><a href="#对称和非对称加密算法" class="headerlink" title="对称和非对称加密算法"></a>对称和非对称加密算法</h1><div class="table-container"><table><thead><tr><th>描述</th><th>对称加密</th><th>非对称加密</th></tr></thead><tbody><tr><td>特点</td><td>秘钥相同、加解密算法不同</td><td>秘钥不同，加解密算法相同</td></tr><tr><td>算法</td><td>DES，AES算法</td><td>RSA，DSA算法</td></tr><tr><td>优点</td><td>传输效率高</td><td>安全，公钥即使被其他人获知，也无法解密数据</td></tr><tr><td>缺点</td><td>密钥有可能被破解，容易被伪造，传输过程中一旦密钥被其他人获知则可以进行数据解密</td><td>需要通信双方都有一套公钥和私钥</td></tr></tbody></table></div><h2 id="数字签名"><a href="#数字签名" class="headerlink" title="数字签名"></a>数字签名</h2><p>由于公钥是公开的，别人截获到公钥就能伪造数据进行传输，所以我们需要验证数据的来源。<span class='p blue'>在用公钥进行加密后，再用私钥进行一次加密，那么私钥的这次加密就叫做签名</span>。所以传输数据流程就变成了加密数据和签名数据，如果解出来都是同样的数据，那么则数据安全可靠。</p><h2 id="Base64算法"><a href="#Base64算法" class="headerlink" title="Base64算法"></a>Base64算法</h2><p>Base64是一种将二进制数据转换成64种字符组成的字符串的编码算法，主要用于非文本数据的传输，比如图片。可以将图片这种二进制数据转换成具体的字符串，进行保存和传输。</p><p>由于Base64算法是公开的，所以不能算加密算法。</p><h1 id="网络耗时优化"><a href="#网络耗时优化" class="headerlink" title="网络耗时优化"></a>网络耗时优化</h1><ol><li>DNS优化<br>使用HttpDns，即Http协议与自建的DNS服务器交互，获取响应IP，如果有问题的话再降级到运营商的LocalDNS解析。优点就是提升域名解析的速度。</li><li>连接优化<br>HTTP2多路复用，同一个域名使用一个TCP链接就可以完成所有的请求。（HTTP1中并发多个请求需要建立多个TCP链接，HTTP2的多路复用技术代替了原来的序列和阻塞机制）</li><li>域名合并<br>域名过多会使长链接复用效率低，每个域名都需要DNS解析，HTTP请求同时跟多个服务器保持长链接增加了客户端和服务端的资源消耗。<br>所以可以对不同域名进行合并，服务端再通过Header或者参数进行分发，这样可以提升长链接效率，减少DNS解析，减少客户端和服务端资源消耗。</li><li>TLS<br>升级服务器的TLS1.3版本，客户端在Android10和iOS12.2后默认支持TLS1.3，想要低版本支持需要接入三方扩展库。（TLS1.3版本对比1.2版本连接复用率高，提升了性能，废弃了一些相对不安全的算法，提升了安全性）</li><li>数据压缩优化<br>ProtoBuffer是Google出的一种轻量并且高效的数据存储格式，性能比Json好，Size比Json小。</li></ol><blockquote><p><a href="https://zhuanlan.zhihu.com/p/43789231">彻底搞懂HTTPS的加密原理</a><br><a href="https://www.imgeek.org/article/825358030">客户端网络优化(一)-原理篇</a></p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;TCP和UDP&quot;&gt;&lt;a href=&quot;#TCP和UDP&quot; class=&quot;headerlink&quot; title=&quot;TCP和UDP&quot;&gt;&lt;/a&gt;TCP和UDP&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;TCP（Transmission Control Protocol，传输控</summary>
+      
+    
+    
+    
+    <category term="Android" scheme="https://blog.zzming.cn/categories/Android/"/>
+    
+    
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Flutter面试之基础篇</title>
+    <link href="https://blog.zzming.cn/post/e8e5428c.html"/>
+    <id>https://blog.zzming.cn/post/e8e5428c.html</id>
+    <published>2022-06-04T04:43:33.000Z</published>
+    <updated>2022-06-10T15:29:04.021Z</updated>
+    
+    <content type="html"><![CDATA[<div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>Flutter版本更新记录</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2020-05-13</p></div></div><div class='timeline-item-content'><p><a href="https://flutter.cn/posts/whats-new-in-flutter-3">Flutter3 更新详解(支持macOS、Linux、曲面屏、游戏开发支持等)</a></p></div></div></div><h1 id="Flutter简介"><a href="#Flutter简介" class="headerlink" title="Flutter简介"></a>Flutter简介</h1><p><a href="https://book.flutterchina.club/chapter1/flutter_intro.html#_1-2-1-flutter-%E7%AE%80%E4%BB%8B">初识Flutter(Flutter框架结构)</a></p><h1 id="LocalKey、GlobalKey的作用和区别"><a href="#LocalKey、GlobalKey的作用和区别" class="headerlink" title="LocalKey、GlobalKey的作用和区别"></a>LocalKey、GlobalKey的作用和区别</h1><p>GlobalKey可以主动获取以及主动改变子控件的状态。</p><h1 id="Widget、Element、RenderObject三者之间的关系"><a href="#Widget、Element、RenderObject三者之间的关系" class="headerlink" title="Widget、Element、RenderObject三者之间的关系"></a>Widget、Element、RenderObject三者之间的关系</h1><p>Widget不是真正渲染UI的对象，它只是Element的一个配置描述，去告知Element应该如何去渲染，Widget和Element之间是一对多的关系。RenderObject才是实际渲染的对象，Element持有RenderObject和Widget。<br>大致总结三者的关系是：配置文件Widget生成了Element，而后创建RenderObject关联到Element的内部renderObject对象上，最后Flutter通过RenderObject数据来布局和绘制。</p><h1 id="Flutter和原生的通信方式"><a href="#Flutter和原生的通信方式" class="headerlink" title="Flutter和原生的通信方式"></a>Flutter和原生的通信方式</h1><p>1.BasicMessageChannel: 支持数据双向传递，有返回值，可用于传递字符串和半结构化的信息。<br>2.MethodChannel: 支持数据双向传递，有返回值，用于传递方法调用（method invocation）。<br>3.EventChannel: 仅支持数据单向传递，无返回值，用于数据流（event streams）的通信。</p><h1 id="StatefulWidget的生命周期"><a href="#StatefulWidget的生命周期" class="headerlink" title="StatefulWidget的生命周期"></a>StatefulWidget的生命周期</h1><h1 id="StatelessWidget和StatefulWidget的区别"><a href="#StatelessWidget和StatefulWidget的区别" class="headerlink" title="StatelessWidget和StatefulWidget的区别"></a>StatelessWidget和StatefulWidget的区别</h1><p>StatelessWidget: 不会发生状态改变的Widget，一旦创建就不关心任何变化，在下次构建之前都不会改变。它们除了依赖于自身的配置信息（在父节点构建时提供）外不再依赖于任何其他信息。<br>StatefulWidget: 在生命周期内，该类 Widget 所持有的数据可能会发生变化，这样的数据被称为 State，这些拥有动态内部数据的 Widget 被称为 StatefulWidget。<br>StatefulWidget 由两部分组成，在初始化时必须要在 createState()时初始化一个与之相关的 State 对象。</p><h1 id="setState刷新原理"><a href="#setState刷新原理" class="headerlink" title="setState刷新原理"></a>setState刷新原理</h1><p>调用一个Widget的setState()方法，它会将当前Widget及其所有子Widget都标记为重新刷新的状态，等待下一个Vsync刷新信号到来时重新刷新所有这些标记为刷新状态的控件，也就是调用他们的build方法。<br>局部刷新的话可以给子部件Widget添加一个GlobalKey，完成跟Element的绑定，拿到子部件Widget的State来进行刷新。</p><h1 id="Future中遍历数据量大的集合会造成卡顿吗"><a href="#Future中遍历数据量大的集合会造成卡顿吗" class="headerlink" title="Future中遍历数据量大的集合会造成卡顿吗"></a>Future中遍历数据量大的集合会造成卡顿吗</h1><p><br></p><div class="note icon flat"><i class="note-icon fab fa-internet-explorer"></i><p><a href="https://blog.csdn.net/u010960265/article/details/81361711">Flutter的两种编译模式</a><br><a href="https://zhuanlan.zhihu.com/p/439251771">Flutter实现动态化更新-技术预研</a><br><a href="https://www.jianshu.com/p/5fe4007a6070">Flutter面试题-基础篇</a><br><a href="https://www.jianshu.com/p/657732a2f333">https://www.jianshu.com/p/657732a2f333</a></p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;timeline blue&quot;&gt;&lt;div class=&#39;timeline-item headline&#39;&gt;&lt;div class=&#39;timeline-item-title&#39;&gt;&lt;div class=&#39;item-circle&#39;&gt;&lt;p&gt;Flutter版本更新记录&lt;/p</summary>
+      
+    
+    
+    
+    <category term="Flutter" scheme="https://blog.zzming.cn/categories/Flutter/"/>
+    
+    
+    <category term="flutter" scheme="https://blog.zzming.cn/tags/flutter/"/>
+    
+  </entry>
   
   <entry>
     <title>Butterfly主题</title>

@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 钟子明
+title: 钟子明&博客
 subtitle: ''
 description: '清风抚帘逃，月儿掩面笑。'
 keywords: Android
@@ -112,7 +112,7 @@ deploy:
 
 douban:
   user: 183895557
-  builtin: true
+  builtin: false
   book:
     title: '腹有诗书气自华'
     quote: 'One who is filled with knowledge always behaves with elegance.'

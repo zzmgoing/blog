@@ -180,7 +180,7 @@ toc:
   post: true
   page: false
   number: true
-  expand: false
+  expand: true
   style_simple: true # for post
 
 post_copyright:
@@ -416,7 +416,7 @@ footer:
   owner:
     enable: true
     since: 2022
-  custom_text: 清风抚帘逃&#44; 月儿掩面笑。
+  custom_text: 清风抚帘逃&#44; 月儿掩面笑。<br><a href='https://beian.miit.gov.cn/' target='_blank'>京ICP备18015493号</a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -849,7 +849,8 @@ inject:
   bottom:
     - <script src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
     - <script data-pjax defer src="/js/chocolate.js"></script>
-    #- <script data-pjax defer src="/js/right_click_enable.js"></script>
+#    - <script src="https://zzming.cn/live2d-widget/autoload.js" type="text/javascript"></script>
+#    - <script data-pjax defer src="/js/right_click_enable.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
