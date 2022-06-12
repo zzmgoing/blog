@@ -13,7 +13,7 @@ timezone: Etc/GMT+8
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.zzming.cn
+url: https://zzming.cn
 root: /
 permalink: post/:abbrlink.html
 abbrlink:
@@ -112,7 +112,7 @@ deploy:
 
 douban:
   user: 183895557
-  builtin: false
+  builtin: true
   book:
     title: '腹有诗书气自华'
     quote: 'One who is filled with knowledge always behaves with elegance.'

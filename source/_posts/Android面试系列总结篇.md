@@ -3,7 +3,7 @@ title: Android面试系列总结篇
 abbrlink: 99fd5a78
 date: 2022-06-10 23:43:13
 tags: android
-categories: Android
+categories: Android面试
 ---
 
 > {% checkbox green checked, 熟练掌握 %} {% checkbox red, 未熟练掌握 %}
@@ -32,24 +32,24 @@ categories: Android
 - RunTimeException和其他Exception区别
 - 泛型和类型擦除
 
-
 {% endfolding %}
 
 # [Android面试之Java进阶篇](2615f0a7.html)
 {% checkbox red, JVM的内存分配 %}
 {% checkbox red, GC垃圾回收机制 %}
-{% checkbox red, Class类的加载过程 %}
 {% checkbox red, ClassLoader加载机制 %}
-{% checkbox red, 线程、线程池、多线程 %}
+{% checkbox red, Class类的加载过程 %}
+{% checkbox red, 线程、多线程、线程池 %}
 {% checkbox red, 锁、死锁 %}
 {% folding yellow, 常见面试题锦集 %}
 
-- 线程池ThreadPool的构造函数
-- 如何设计一个线程池
 - Class类的加载执行顺序(包含静态变量和方法)
+- 如何停止正在运行的线程
+- 线程池ThreadPool的构造函数
+- 进程和线程的区别
 - volatile的作用，能否保证线程安全
 - synchronized和volatile的区别
-- synchronized有哪些优化
+- synchronized和ReentrantLock的区别
 
 {% endfolding %}
 
@@ -99,7 +99,7 @@ categories: Android
 {% checkbox red, OKHttp原理 %}
 {% checkbox red, Retrofit原理 %}
 
-# [Android面试之数据结构篇](ad6a412c.html)
+# [Android面试之数据结构篇](30ef2a74.html)
 {% checkbox red, 线性结构 %}
 {% checkbox red, 非线性结构 %}
 {% checkbox red, ArrayList数据结构 %}

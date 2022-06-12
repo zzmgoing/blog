@@ -17,11 +17,11 @@ menu:
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: 200 # unit: px
+highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_height_limit: 230 # unit: px
 code_word_wrap: true
 
 # copy settings
@@ -77,7 +77,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://zzming.cn/favicon.ico
+favicon: img/favicon.ico
 
 # Avatar (頭像)
 avatar:
@@ -303,7 +303,7 @@ gitalk:
 valine:
   appId: hstJccENmjo6SqjC8iLWXyu8-gzGzoHsz # leancloud application app id
   appKey: FpT465VhNqze2lj63fwHlPhJ # leancloud application app key
-  emojiCDN: https://gamernotitle.coding.net/p/ValineCDN/d/ValineCDN/git/raw/master/ # emoji CDN
+  emojiCDN: # emoji CDN
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   serverURLs: https://leancloud.zzming.cn # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
@@ -815,7 +815,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: true
+  enable: false
   field: site # site/post
   placeholder:
   blur: false

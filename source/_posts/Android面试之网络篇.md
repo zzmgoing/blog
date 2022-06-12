@@ -3,7 +3,7 @@ title: Android面试之网络篇
 abbrlink: a3e07e13
 date: 2022-06-04 22:40:51
 tags: android
-categories: Android
+categories: Android面试
 ---
 
 # TCP和UDP
