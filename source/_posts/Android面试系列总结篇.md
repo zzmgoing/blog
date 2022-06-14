@@ -81,6 +81,7 @@ categories: Android面试
 {% checkbox red, View事件分发 %}
 {% checkbox red, View绘制流程 %}
 {% checkbox red, Gradle构建流程 %}
+{% checkbox red, 内存泄漏 %}
 {% checkbox red, 性能优化 %}
 {% folding yellow, 常见面试题锦集 %}
 
