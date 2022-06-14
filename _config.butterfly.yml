@@ -4,15 +4,19 @@
 
 menu:
   首页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
+  文章||fas fa-book:
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
   生活||fas fa-list:
     相册: /photos/ || fas fa-images
     书单: /books/ || fas fa-book
     电影: /movies/ || fas fa-video
+  留言板: /comments/ || fas fa-comments
   友链: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  其他||fas fa-paper-plane:
+    书签: /navigation/ || fas fa-bookmark
+    关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------

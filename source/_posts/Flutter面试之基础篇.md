@@ -3,7 +3,7 @@ title: Flutter面试之基础篇
 abbrlink: e8e5428c
 date: 2022-06-03 20:43:33
 tags: flutter
-categories: Flutter
+categories: Flutter面试
 ---
 
 {% timeline Flutter版本更新记录,blue %}

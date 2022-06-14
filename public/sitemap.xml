@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zzming.cn/comments/index.html</loc>
+    
+    <lastmod>2022-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zzming.cn/tags/index.html</loc>
+    
+    <lastmod>2022-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zzming.cn/archives/index.html</loc>
+    
+    <lastmod>2022-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zzming.cn/categories/index.html</loc>
+    
+    <lastmod>2022-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zzming.cn/link/index.html</loc>
+    
+    <lastmod>2022-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zzming.cn/post/e8e5428c.html</loc>
+    
+    <lastmod>2022-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zzming.cn/post/20c6ad4c.html</loc>
     
     <lastmod>2022-06-14</lastmod>
@@ -92,15 +146,6 @@
   </url>
   
   <url>
-    <loc>https://zzming.cn/post/e8e5428c.html</loc>
-    
-    <lastmod>2022-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zzming.cn/post/3a57339.html</loc>
     
     <lastmod>2022-06-06</lastmod>
@@ -155,15 +200,6 @@
   </url>
   
   <url>
-    <loc>https://zzming.cn/categories/index.html</loc>
-    
-    <lastmod>2022-06-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zzming.cn/gallery/travel/index.html</loc>
     
     <lastmod>2022-05-29</lastmod>
@@ -173,34 +209,7 @@
   </url>
   
   <url>
-    <loc>https://zzming.cn/link/index.html</loc>
-    
-    <lastmod>2022-05-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zzming.cn/about/index.html</loc>
-    
-    <lastmod>2022-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zzming.cn/archives/index.html</loc>
-    
-    <lastmod>2022-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zzming.cn/tags/index.html</loc>
     
     <lastmod>2022-05-21</lastmod>
     
@@ -262,7 +271,7 @@
   </url>
   
   <url>
-    <loc>https://zzming.cn/categories/Flutter/</loc>
+    <loc>https://zzming.cn/categories/Flutter%E9%9D%A2%E8%AF%95/</loc>
     <lastmod>2022-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
