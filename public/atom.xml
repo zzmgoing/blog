@@ -3,11 +3,11 @@
   <title>钟子明&amp;博客</title>
   
   
-  <link href="https://zzming.cn/atom.xml" rel="self"/>
+  <link href="https://blog.zzming.cn/atom.xml" rel="self"/>
   
-  <link href="https://zzming.cn/"/>
+  <link href="https://blog.zzming.cn/"/>
   <updated>2022-06-12T14:56:45.910Z</updated>
-  <id>https://zzming.cn/</id>
+  <id>https://blog.zzming.cn/</id>
   
   <author>
     <name>钟子明</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Android面试系列总结篇</title>
-    <link href="https://zzming.cn/post/99fd5a78.html"/>
-    <id>https://zzming.cn/post/99fd5a78.html</id>
+    <link href="https://blog.zzming.cn/post/99fd5a78.html"/>
+    <id>https://blog.zzming.cn/post/99fd5a78.html</id>
     <published>2022-06-11T07:43:13.000Z</published>
     <updated>2022-06-12T14:56:45.910Z</updated>
     
@@ -36,68 +36,68 @@
     
     
     
-    <category term="Android面试" scheme="https://zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
+    <category term="Android面试" scheme="https://blog.zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
     
     
-    <category term="android" scheme="https://zzming.cn/tags/android/"/>
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
     
   </entry>
   
   <entry>
     <title>Android面试之算法篇</title>
-    <link href="https://zzming.cn/post/b420aa0f.html"/>
-    <id>https://zzming.cn/post/b420aa0f.html</id>
+    <link href="https://blog.zzming.cn/post/b420aa0f.html"/>
+    <id>https://blog.zzming.cn/post/b420aa0f.html</id>
     <published>2022-06-11T07:40:10.000Z</published>
     <updated>2022-06-12T13:36:14.240Z</updated>
     
     
     
     
-    <category term="Android面试" scheme="https://zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
+    <category term="Android面试" scheme="https://blog.zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
     
     
-    <category term="android" scheme="https://zzming.cn/tags/android/"/>
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
     
   </entry>
   
   <entry>
     <title>Android面试之数据结构篇</title>
-    <link href="https://zzming.cn/post/30ef2a74.html"/>
-    <id>https://zzming.cn/post/30ef2a74.html</id>
+    <link href="https://blog.zzming.cn/post/30ef2a74.html"/>
+    <id>https://blog.zzming.cn/post/30ef2a74.html</id>
     <published>2022-06-11T07:38:10.000Z</published>
     <updated>2022-06-12T13:36:14.291Z</updated>
     
     
     
     
-    <category term="Android面试" scheme="https://zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
+    <category term="Android面试" scheme="https://blog.zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
     
     
-    <category term="android" scheme="https://zzming.cn/tags/android/"/>
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
     
   </entry>
   
   <entry>
     <title>Android面试之源码篇</title>
-    <link href="https://zzming.cn/post/ad6a412c.html"/>
-    <id>https://zzming.cn/post/ad6a412c.html</id>
+    <link href="https://blog.zzming.cn/post/ad6a412c.html"/>
+    <id>https://blog.zzming.cn/post/ad6a412c.html</id>
     <published>2022-06-10T07:13:39.000Z</published>
     <updated>2022-06-12T13:36:14.273Z</updated>
     
     
     
     
-    <category term="Android面试" scheme="https://zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
+    <category term="Android面试" scheme="https://blog.zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
     
     
-    <category term="android" scheme="https://zzming.cn/tags/android/"/>
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
     
   </entry>
   
   <entry>
     <title>Android面试之进阶篇</title>
-    <link href="https://zzming.cn/post/e9e8920f.html"/>
-    <id>https://zzming.cn/post/e9e8920f.html</id>
+    <link href="https://blog.zzming.cn/post/e9e8920f.html"/>
+    <id>https://blog.zzming.cn/post/e9e8920f.html</id>
     <published>2022-06-09T07:13:20.000Z</published>
     <updated>2022-06-12T14:56:45.906Z</updated>
     
@@ -111,17 +111,17 @@
     
     
     
-    <category term="Android面试" scheme="https://zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
+    <category term="Android面试" scheme="https://blog.zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
     
     
-    <category term="android" scheme="https://zzming.cn/tags/android/"/>
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
     
   </entry>
   
   <entry>
     <title>Android面试之基础篇</title>
-    <link href="https://zzming.cn/post/cb6039dc.html"/>
-    <id>https://zzming.cn/post/cb6039dc.html</id>
+    <link href="https://blog.zzming.cn/post/cb6039dc.html"/>
+    <id>https://blog.zzming.cn/post/cb6039dc.html</id>
     <published>2022-06-08T07:13:09.000Z</published>
     <updated>2022-06-12T14:50:52.264Z</updated>
     
@@ -135,17 +135,17 @@
     
     
     
-    <category term="Android面试" scheme="https://zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
+    <category term="Android面试" scheme="https://blog.zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
     
     
-    <category term="android" scheme="https://zzming.cn/tags/android/"/>
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
     
   </entry>
   
   <entry>
     <title>Android面试之Java进阶篇</title>
-    <link href="https://zzming.cn/post/2615f0a7.html"/>
-    <id>https://zzming.cn/post/2615f0a7.html</id>
+    <link href="https://blog.zzming.cn/post/2615f0a7.html"/>
+    <id>https://blog.zzming.cn/post/2615f0a7.html</id>
     <published>2022-06-07T07:12:11.000Z</published>
     <updated>2022-06-13T03:04:10.007Z</updated>
     
@@ -160,17 +160,17 @@
     
     
     
-    <category term="Android面试" scheme="https://zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
+    <category term="Android面试" scheme="https://blog.zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
     
     
-    <category term="android" scheme="https://zzming.cn/tags/android/"/>
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
     
   </entry>
   
   <entry>
     <title>Android面试之Java基础篇</title>
-    <link href="https://zzming.cn/post/49d5b74.html"/>
-    <id>https://zzming.cn/post/49d5b74.html</id>
+    <link href="https://blog.zzming.cn/post/49d5b74.html"/>
+    <id>https://blog.zzming.cn/post/49d5b74.html</id>
     <published>2022-06-06T07:11:38.000Z</published>
     <updated>2022-06-12T13:36:14.284Z</updated>
     
@@ -185,17 +185,17 @@
     
     
     
-    <category term="Android面试" scheme="https://zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
+    <category term="Android面试" scheme="https://blog.zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
     
     
-    <category term="android" scheme="https://zzming.cn/tags/android/"/>
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
     
   </entry>
   
   <entry>
     <title>Android面试之网络篇</title>
-    <link href="https://zzming.cn/post/a3e07e13.html"/>
-    <id>https://zzming.cn/post/a3e07e13.html</id>
+    <link href="https://blog.zzming.cn/post/a3e07e13.html"/>
+    <id>https://blog.zzming.cn/post/a3e07e13.html</id>
     <published>2022-06-05T06:40:51.000Z</published>
     <updated>2022-06-12T13:36:21.923Z</updated>
     
@@ -210,17 +210,17 @@
     
     
     
-    <category term="Android面试" scheme="https://zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
+    <category term="Android面试" scheme="https://blog.zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/"/>
     
     
-    <category term="android" scheme="https://zzming.cn/tags/android/"/>
+    <category term="android" scheme="https://blog.zzming.cn/tags/android/"/>
     
   </entry>
   
   <entry>
     <title>Flutter面试之基础篇</title>
-    <link href="https://zzming.cn/post/e8e5428c.html"/>
-    <id>https://zzming.cn/post/e8e5428c.html</id>
+    <link href="https://blog.zzming.cn/post/e8e5428c.html"/>
+    <id>https://blog.zzming.cn/post/e8e5428c.html</id>
     <published>2022-06-04T04:43:33.000Z</published>
     <updated>2022-06-14T14:56:22.644Z</updated>
     
@@ -234,17 +234,17 @@
     
     
     
-    <category term="Flutter面试" scheme="https://zzming.cn/categories/Flutter%E9%9D%A2%E8%AF%95/"/>
+    <category term="Flutter面试" scheme="https://blog.zzming.cn/categories/Flutter%E9%9D%A2%E8%AF%95/"/>
     
     
-    <category term="flutter" scheme="https://zzming.cn/tags/flutter/"/>
+    <category term="flutter" scheme="https://blog.zzming.cn/tags/flutter/"/>
     
   </entry>
   
   <entry>
     <title>Butterfly主题</title>
-    <link href="https://zzming.cn/post/2756f2af.html"/>
-    <id>https://zzming.cn/post/2756f2af.html</id>
+    <link href="https://blog.zzming.cn/post/2756f2af.html"/>
+    <id>https://blog.zzming.cn/post/2756f2af.html</id>
     <published>2022-05-28T21:28:28.000Z</published>
     <updated>2022-06-05T11:13:52.061Z</updated>
     
@@ -258,17 +258,17 @@
     
     
     
-    <category term="主题" scheme="https://zzming.cn/categories/%E4%B8%BB%E9%A2%98/"/>
+    <category term="主题" scheme="https://blog.zzming.cn/categories/%E4%B8%BB%E9%A2%98/"/>
     
     
-    <category term="butterfly" scheme="https://zzming.cn/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.zzming.cn/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>我们结婚了</title>
-    <link href="https://zzming.cn/post/52aec6e1.html"/>
-    <id>https://zzming.cn/post/52aec6e1.html</id>
+    <link href="https://blog.zzming.cn/post/52aec6e1.html"/>
+    <id>https://blog.zzming.cn/post/52aec6e1.html</id>
     <published>2020-10-01T08:00:00.000Z</published>
     <updated>2022-06-01T16:10:45.526Z</updated>
     
@@ -279,15 +279,15 @@
     
     
     
-    <category term="视频" scheme="https://zzming.cn/categories/%E8%A7%86%E9%A2%91/"/>
+    <category term="视频" scheme="https://blog.zzming.cn/categories/%E8%A7%86%E9%A2%91/"/>
     
     
   </entry>
   
   <entry>
     <title>Android自定义可触摸滑动的转盘（仪表盘）</title>
-    <link href="https://zzming.cn/post/20c6ad4c.html"/>
-    <id>https://zzming.cn/post/20c6ad4c.html</id>
+    <link href="https://blog.zzming.cn/post/20c6ad4c.html"/>
+    <id>https://blog.zzming.cn/post/20c6ad4c.html</id>
     <published>2017-01-06T22:20:17.000Z</published>
     <updated>2022-06-14T13:45:13.389Z</updated>
     
@@ -301,17 +301,17 @@
     
     
     
-    <category term="Android" scheme="https://zzming.cn/categories/Android/"/>
+    <category term="Android" scheme="https://blog.zzming.cn/categories/Android/"/>
     
     
-    <category term="自定义View" scheme="https://zzming.cn/tags/%E8%87%AA%E5%AE%9A%E4%B9%89View/"/>
+    <category term="自定义View" scheme="https://blog.zzming.cn/tags/%E8%87%AA%E5%AE%9A%E4%B9%89View/"/>
     
   </entry>
   
   <entry>
     <title>旧时光的瓶子</title>
-    <link href="https://zzming.cn/post/3a57339.html"/>
-    <id>https://zzming.cn/post/3a57339.html</id>
+    <link href="https://blog.zzming.cn/post/3a57339.html"/>
+    <id>https://blog.zzming.cn/post/3a57339.html</id>
     <published>2016-11-05T20:46:20.000Z</published>
     <updated>2022-06-06T04:57:28.974Z</updated>
     
@@ -326,7 +326,7 @@
     
     
     
-    <category term="随笔" scheme="https://zzming.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://blog.zzming.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
   </entry>
