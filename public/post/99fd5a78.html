@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Android面试系列总结篇 | 钟子明&amp;博客</title><meta name="keywords" content="android"><meta name="author" content="钟子明"><meta name="copyright" content="钟子明"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="熟练掌握                           未熟练掌握              由于各种各类的知识点及面试相关问题较多，在此仅记录总结比较重要的基础知识点和高频的面试题。  Android面试之网络篇             TCP和UDP                           HTTP和HTTPS">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Android面试知识总结 | 钟子明&amp;博客</title><meta name="keywords" content="android"><meta name="author" content="钟子明"><meta name="copyright" content="钟子明"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="网络TCP和UDPHTTP和HTTPSHTTP1.0、1.1和2.0的区别HTTPS原理和请求过程对称和非对称加密算法网络耗时优化 Java特点和特性面向对象和面向过程八大基本数据类型四大引用类型JVM的内存分配GC垃圾回收机制ClassLoader加载机制Class类的加载过程线程、多线程、线程池锁、死锁 AndroidActivityFragmentServiceBroadcastReceiv">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Android面试系列总结篇">
+<meta property="og:title" content="Android面试知识总结">
 <meta property="og:url" content="https://blog.zzming.cn/post/99fd5a78.html">
 <meta property="og:site_name" content="钟子明&amp;博客">
-<meta property="og:description" content="熟练掌握                           未熟练掌握              由于各种各类的知识点及面试相关问题较多，在此仅记录总结比较重要的基础知识点和高频的面试题。  Android面试之网络篇             TCP和UDP                           HTTP和HTTPS">
+<meta property="og:description" content="网络TCP和UDPHTTP和HTTPSHTTP1.0、1.1和2.0的区别HTTPS原理和请求过程对称和非对称加密算法网络耗时优化 Java特点和特性面向对象和面向过程八大基本数据类型四大引用类型JVM的内存分配GC垃圾回收机制ClassLoader加载机制Class类的加载过程线程、多线程、线程池锁、死锁 AndroidActivityFragmentServiceBroadcastReceiv">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://img.upyun.zzming.cn/wallpaper/fengjing_riluo.webp">
 <meta property="article:published_time" content="2022-06-11T07:43:13.000Z">
-<meta property="article:modified_time" content="2022-06-12T14:56:45.910Z">
+<meta property="article:modified_time" content="2022-07-10T09:52:30.333Z">
 <meta property="article:author" content="钟子明">
 <meta property="article:tag" content="android">
 <meta name="twitter:card" content="summary">
@@ -48,12 +48,12 @@
   islazyload: false,
   isAnchor: false
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
-  title: 'Android面试系列总结篇',
+  title: 'Android面试知识总结',
   isPost: true,
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2022-06-12 06:56:45'
+  postUpdate: '2022-07-10 01:52:30'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -167,166 +167,16 @@
     }
     window.addEventListener('load',endLoading);
 </script>
-<div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://img.upyun.zzming.cn/icon/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">14</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书单</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-paper-plane"></i><span> 其他</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://mark.zzming.cn"><i class="fa-fw fas fa-bookmark"></i><span> 导航</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://img.upyun.zzming.cn/wallpaper/fengjing_riluo.webp')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">钟子明&amp;博客</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书单</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-paper-plane"></i><span> 其他</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://mark.zzming.cn"><i class="fa-fw fas fa-bookmark"></i><span> 导航</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Android面试系列总结篇</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-06-11T07:43:13.000Z" title="发表于 2022-06-10 23:43:13">2022-06-10</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-06-12T14:56:45.910Z" title="更新于 2022-06-12 06:56:45">2022-06-12</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Android%E9%9D%A2%E8%AF%95/">Android面试</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Android面试系列总结篇"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><blockquote>
-<div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>熟练掌握</p>
-            </div> <div class='checkbox red'><input type="checkbox" />
-            <p>未熟练掌握</p>
-            </div>
-<p>由于各种各类的知识点及面试相关问题较多，在此仅记录总结比较重要的基础知识点和高频的面试题。</p>
-</blockquote>
-<h1 id="Android面试之网络篇"><a href="#Android面试之网络篇" class="headerlink" title="Android面试之网络篇"></a><a href="a3e07e13.html">Android面试之网络篇</a></h1><div class='checkbox green checked'><input type="checkbox" checked="checked"/>
-            <p>TCP和UDP</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>HTTP和HTTPS</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>HTTP1.0、1.1和2.0的区别</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>HTTPS原理和请求过程</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>对称和非对称加密算法</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>网络耗时优化</p>
-            </div>
-<h1 id="Android面试之Java基础篇"><a href="#Android面试之Java基础篇" class="headerlink" title="Android面试之Java基础篇"></a><a href="49d5b74.html">Android面试之Java基础篇</a></h1><div class='checkbox red'><input type="checkbox" />
-            <p>特点和特性</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>面向对象和面向过程</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>八大基本数据类型</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>四大引用类型</p>
-            </div>
-<details class="folding-tag" yellow><summary> 常见面试题锦集 </summary>
-              <div class='content'>
-              <ul><li>equals方法和==的区别</li><li>String、StringBuilder和StringBuffer区别</li><li>为什么String不可变，不可变对象的好处</li><li>final、finally、finalize区别</li><li>Exception和Error有什么区别</li><li>RunTimeException和其他Exception区别</li><li>泛型和类型擦除</li></ul>
-              </div>
-            </details>
-<h1 id="Android面试之Java进阶篇"><a href="#Android面试之Java进阶篇" class="headerlink" title="Android面试之Java进阶篇"></a><a href="2615f0a7.html">Android面试之Java进阶篇</a></h1><div class='checkbox red'><input type="checkbox" />
-            <p>JVM的内存分配</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>GC垃圾回收机制</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>ClassLoader加载机制</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>Class类的加载过程</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>线程、多线程、线程池</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>锁、死锁</p>
-            </div>
-<details class="folding-tag" yellow><summary> 常见面试题锦集 </summary>
-              <div class='content'>
-              <ul><li>Class类的加载执行顺序(包含静态变量和方法)</li><li>如何停止正在运行的线程</li><li>线程池ThreadPool的构造函数</li><li>进程和线程的区别</li><li>volatile的作用，能否保证线程安全</li><li>synchronized和volatile的区别</li><li>synchronized和ReentrantLock的区别</li></ul>
-              </div>
-            </details>
-<h1 id="Android面试之基础篇"><a href="#Android面试之基础篇" class="headerlink" title="Android面试之基础篇"></a><a href="cb6039dc.html">Android面试之基础篇</a></h1><div class='checkbox red'><input type="checkbox" />
-            <p>Activity</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>Fragment</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>Service</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>BroadcastReceiver</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>ContentProvider</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>四大组件区别和Context</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>Animation</p>
-            </div>
-<details class="folding-tag" yellow><summary> 常见面试题锦集 </summary>
-              <div class='content'>
-              <ul><li>APK安装流程</li><li>Activity启动流程</li><li>Serializable和Parcelable区别</li><li>Activity、Window、View关系</li><li>Activity获取View宽高的三种方式</li><li>LruCache缓存机制</li><li>SharedPreferences优缺点，如何优化</li><li>ListView、RecyclerView区别</li></ul>
-              </div>
-            </details>
-<h1 id="Android面试之进阶篇"><a href="#Android面试之进阶篇" class="headerlink" title="Android面试之进阶篇"></a><a href="e9e8920f.html">Android面试之进阶篇</a></h1><div class='checkbox red'><input type="checkbox" />
-            <p>Handler机制</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>Binder机制</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>进程和多线程</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>View事件分发</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>View绘制流程</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>Gradle构建流程</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>内存泄漏</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>性能优化</p>
-            </div>
-<details class="folding-tag" yellow><summary> 常见面试题锦集 </summary>
-              <div class='content'>
-              <ul><li>Handler延迟消息机制</li><li>Handler异步消息和同步屏障</li><li>Looper怎么保证在线程里唯一</li><li>进程间通信方式有哪些</li><li>内存映射(mmap)原理</li><li>Binder的最大线程数量</li></ul>
-              </div>
-            </details>
-<h1 id="Android面试之源码篇"><a href="#Android面试之源码篇" class="headerlink" title="Android面试之源码篇"></a><a href="ad6a412c.html">Android面试之源码篇</a></h1><div class='checkbox red'><input type="checkbox" />
-            <p>Kotlin空安全原理</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>Kotlin协程原理</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>OKHttp原理</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>Retrofit原理</p>
-            </div>
-<h1 id="Android面试之数据结构篇"><a href="#Android面试之数据结构篇" class="headerlink" title="Android面试之数据结构篇"></a><a href="30ef2a74.html">Android面试之数据结构篇</a></h1><div class='checkbox red'><input type="checkbox" />
-            <p>线性结构</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>非线性结构</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>ArrayList数据结构</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>HashMap数据结构</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>HashSet数据结构</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>二叉树的遍历和深度</p>
-            </div>
-<h1 id="Android面试之算法篇"><a href="#Android面试之算法篇" class="headerlink" title="Android面试之算法篇"></a><a href="b420aa0f.html">Android面试之算法篇</a></h1><div class='checkbox red'><input type="checkbox" />
-            <p>算法的特征和设计原则</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>算法的空间和时间复杂度</p>
-            </div>
-<div class='checkbox red'><input type="checkbox" />
-            <p>算法的分类和理解</p>
-            </div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://blog.zzming.cn">钟子明</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://blog.zzming.cn/post/99fd5a78.html">https://blog.zzming.cn/post/99fd5a78.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.zzming.cn" target="_blank">钟子明&博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/android/">android</a></div><div class="post_share"><div class="social-share" data-image="https://img.upyun.zzming.cn/wallpaper/fengjing_riluo.webp" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://fastly.jsdelivr.net/gh/overtrue/share.js@master/dist/js/social-share.min.js" defer></script></div></div><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/post/49d5b74.html" title="Android面试之Java基础篇"><img class="cover" src="https://img.upyun.zzming.cn/wallpaper/fengjing_riluo.webp" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-06-05</div><div class="title">Android面试之Java基础篇</div></div></a></div><div><a href="/post/cb6039dc.html" title="Android面试之基础篇"><img class="cover" src="https://img.upyun.zzming.cn/wallpaper/fengjing_riluo.webp" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-06-07</div><div class="title">Android面试之基础篇</div></div></a></div><div><a href="/post/30ef2a74.html" title="Android面试之数据结构篇"><img class="cover" src="https://img.upyun.zzming.cn/wallpaper/fengjing_riluo.webp" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-06-10</div><div class="title">Android面试之数据结构篇</div></div></a></div><div><a href="/post/ad6a412c.html" title="Android面试之源码篇"><img class="cover" src="https://img.upyun.zzming.cn/wallpaper/fengjing_riluo.webp" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-06-09</div><div class="title">Android面试之源码篇</div></div></a></div><div><a href="/post/b420aa0f.html" title="Android面试之算法篇"><img class="cover" src="https://img.upyun.zzming.cn/wallpaper/fengjing_riluo.webp" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-06-10</div><div class="title">Android面试之算法篇</div></div></a></div><div><a href="/post/a3e07e13.html" title="Android面试之网络篇"><img class="cover" src="https://img.upyun.zzming.cn/wallpaper/fengjing_riluo.webp" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-06-04</div><div class="title">Android面试之网络篇</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Android%E9%9D%A2%E8%AF%95%E4%B9%8B%E7%BD%91%E7%BB%9C%E7%AF%87"><span class="toc-number">1.</span> <span class="toc-text">Android面试之网络篇</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Android%E9%9D%A2%E8%AF%95%E4%B9%8BJava%E5%9F%BA%E7%A1%80%E7%AF%87"><span class="toc-number">2.</span> <span class="toc-text">Android面试之Java基础篇</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Android%E9%9D%A2%E8%AF%95%E4%B9%8BJava%E8%BF%9B%E9%98%B6%E7%AF%87"><span class="toc-number">3.</span> <span class="toc-text">Android面试之Java进阶篇</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Android%E9%9D%A2%E8%AF%95%E4%B9%8B%E5%9F%BA%E7%A1%80%E7%AF%87"><span class="toc-number">4.</span> <span class="toc-text">Android面试之基础篇</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Android%E9%9D%A2%E8%AF%95%E4%B9%8B%E8%BF%9B%E9%98%B6%E7%AF%87"><span class="toc-number">5.</span> <span class="toc-text">Android面试之进阶篇</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Android%E9%9D%A2%E8%AF%95%E4%B9%8B%E6%BA%90%E7%A0%81%E7%AF%87"><span class="toc-number">6.</span> <span class="toc-text">Android面试之源码篇</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Android%E9%9D%A2%E8%AF%95%E4%B9%8B%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AF%87"><span class="toc-number">7.</span> <span class="toc-text">Android面试之数据结构篇</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Android%E9%9D%A2%E8%AF%95%E4%B9%8B%E7%AE%97%E6%B3%95%E7%AF%87"><span class="toc-number">8.</span> <span class="toc-text">Android面试之算法篇</span></a></li></ol></div></div></div></div></main><footer id="footer" style="background-image: url('https://img.upyun.zzming.cn/wallpaper/fengjing_riluo.webp')"><div id="footer-wrap"><div class="copyright">&copy;2022  <i id="heartbeat" class="fa fas fa-heartbeat"></i> 钟子明</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">清风抚帘逃&#44; 月儿掩面笑。<br><a href='https://beian.miit.gov.cn/' target='_blank'>京ICP备18015493号</a></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&amp;logo=hexo"/></a><a class="github-badge" target="_blank" href="https://butterfly.js.org/" style="margin-inline:5px"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&amp;logo=bitdefender"/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&amp;logo=GitHub"/></a><a class="github-badge" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-inline:5px"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&amp;logo=Claris"/></a></p></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css"></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://fastly.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://fastly.jsdelivr.net/npm/instant.page@5/instantpage.min.js" type="module"></script><script src="https://fastly.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>var preloader = {
+<div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://img.upyun.zzming.cn/icon/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书单</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-paper-plane"></i><span> 其他</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://mark.zzming.cn"><i class="fa-fw fas fa-bookmark"></i><span> 导航</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://img.upyun.zzming.cn/wallpaper/fengjing_riluo.webp')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">钟子明&amp;博客</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书单</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-paper-plane"></i><span> 其他</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://mark.zzming.cn"><i class="fa-fw fas fa-bookmark"></i><span> 导航</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Android面试知识总结</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-06-11T07:43:13.000Z" title="发表于 2022-06-10 23:43:13">2022-06-10</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-10T09:52:30.333Z" title="更新于 2022-07-10 01:52:30">2022-07-10</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Android%E9%9D%A2%E8%AF%95/">Android面试</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Android面试知识总结"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h1><p>TCP和UDP<br>HTTP和HTTPS<br>HTTP1.0、1.1和2.0的区别<br>HTTPS原理和请求过程<br>对称和非对称加密算法<br>网络耗时优化</p>
+<h1 id="Java"><a href="#Java" class="headerlink" title="Java"></a>Java</h1><p>特点和特性<br>面向对象和面向过程<br>八大基本数据类型<br>四大引用类型<br>JVM的内存分配<br>GC垃圾回收机制<br>ClassLoader加载机制<br>Class类的加载过程<br>线程、多线程、线程池<br>锁、死锁</p>
+<h1 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h1><p>Activity<br>Fragment<br>Service<br>BroadcastReceiver<br>ContentProvider<br>四大组件区别和Context<br>Animation<br>Handler机制<br>Binder机制<br>进程和多线程<br>View事件分发<br>View绘制流程<br>Gradle构建流程<br>内存泄漏<br>性能优化</p>
+<h1 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h1><p>OKHttp<br>Retrofit<br>RxJava<br>EventBus<br>ARouter<br>Lifecycle<br>LiveData<br>ViewModel</p>
+<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><p>线性结构<br>非线性结构<br>二叉树的遍历和深度<br>ArrayList数据结构<br>HashMap数据结构<br>HashSet数据结构</p>
+<h1 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h1><p>算法的特征和设计原则<br>算法的空间和时间复杂度<br>算法的分类和理解</p>
+<h1 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h1><p>为方便阅读记忆和总结，我将Android面试相关知识点归纳总结在了一起，项目地址：</p>
+<a class="ghcard" rel="external nofollow noopener noreferrer noopener" target="_blank" href="https://github.com/zzmgoing/android-book"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zzmgoing&repo=android-book&theme=vue&show_owner=true"/></a>
+<p>欢迎大家star和fork。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://blog.zzming.cn">钟子明</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://blog.zzming.cn/post/99fd5a78.html">https://blog.zzming.cn/post/99fd5a78.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.zzming.cn" target="_blank">钟子明&博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/android/">android</a></div><div class="post_share"><div class="social-share" data-image="https://img.upyun.zzming.cn/wallpaper/fengjing_riluo.webp" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://fastly.jsdelivr.net/gh/overtrue/share.js@master/dist/js/social-share.min.js" defer></script></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C"><span class="toc-number">1.</span> <span class="toc-text">网络</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Java"><span class="toc-number">2.</span> <span class="toc-text">Java</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Android"><span class="toc-number">3.</span> <span class="toc-text">Android</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%BA%90%E7%A0%81"><span class="toc-number">4.</span> <span class="toc-text">源码</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="toc-number">5.</span> <span class="toc-text">数据结构</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AE%97%E6%B3%95"><span class="toc-number">6.</span> <span class="toc-text">算法</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F"><span class="toc-number">7.</span> <span class="toc-text">设计模式</span></a></li></ol></div></div></div></div></main><footer id="footer" style="background-image: url('https://img.upyun.zzming.cn/wallpaper/fengjing_riluo.webp')"><div id="footer-wrap"><div class="copyright">&copy;2022  <i id="heartbeat" class="fa fas fa-heartbeat"></i> 钟子明</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">清风抚帘逃&#44; 月儿掩面笑。<br><a href='https://beian.miit.gov.cn/' target='_blank'>京ICP备18015493号</a></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&amp;logo=hexo"/></a><a class="github-badge" target="_blank" href="https://butterfly.js.org/" style="margin-inline:5px"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&amp;logo=bitdefender"/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&amp;logo=GitHub"/></a><a class="github-badge" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-inline:5px"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&amp;logo=Claris"/></a></p></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css"></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://fastly.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://fastly.jsdelivr.net/npm/instant.page@5/instantpage.min.js" type="module"></script><script src="https://fastly.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>var preloader = {
   endLoading: () => {
     document.body.style.overflow = 'auto';
     document.getElementById('loading-box').classList.add("loaded")

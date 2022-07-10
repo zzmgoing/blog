@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.zzming.cn/post/99fd5a78.html</loc>
+    
+    <lastmod>2022-07-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.zzming.cn/comments/index.html</loc>
     
     <lastmod>2022-06-14</lastmod>
@@ -47,99 +56,9 @@
   </url>
   
   <url>
-    <loc>https://blog.zzming.cn/post/e8e5428c.html</loc>
-    
-    <lastmod>2022-06-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.zzming.cn/post/20c6ad4c.html</loc>
     
     <lastmod>2022-06-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzming.cn/post/2615f0a7.html</loc>
-    
-    <lastmod>2022-06-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzming.cn/post/99fd5a78.html</loc>
-    
-    <lastmod>2022-06-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzming.cn/post/e9e8920f.html</loc>
-    
-    <lastmod>2022-06-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzming.cn/post/cb6039dc.html</loc>
-    
-    <lastmod>2022-06-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzming.cn/post/a3e07e13.html</loc>
-    
-    <lastmod>2022-06-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzming.cn/post/30ef2a74.html</loc>
-    
-    <lastmod>2022-06-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzming.cn/post/49d5b74.html</loc>
-    
-    <lastmod>2022-06-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzming.cn/post/ad6a412c.html</loc>
-    
-    <lastmod>2022-06-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzming.cn/post/b420aa0f.html</loc>
-    
-    <lastmod>2022-06-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -220,7 +139,7 @@
 
   <url>
     <loc>https://blog.zzming.cn/</loc>
-    <lastmod>2022-06-23</lastmod>
+    <lastmod>2022-07-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -228,28 +147,21 @@
   
   <url>
     <loc>https://blog.zzming.cn/tags/android/</loc>
-    <lastmod>2022-06-23</lastmod>
+    <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zzming.cn/tags/butterfly/</loc>
-    <lastmod>2022-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzming.cn/tags/flutter/</loc>
-    <lastmod>2022-06-23</lastmod>
+    <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zzming.cn/tags/%E8%87%AA%E5%AE%9A%E4%B9%89View/</loc>
-    <lastmod>2022-06-23</lastmod>
+    <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -257,43 +169,36 @@
 
   
   <url>
+    <loc>https://blog.zzming.cn/categories/Android/</loc>
+    <lastmod>2022-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.zzming.cn/categories/Android%E9%9D%A2%E8%AF%95/</loc>
-    <lastmod>2022-06-23</lastmod>
+    <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zzming.cn/categories/%E4%B8%BB%E9%A2%98/</loc>
-    <lastmod>2022-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzming.cn/categories/Flutter%E9%9D%A2%E8%AF%95/</loc>
-    <lastmod>2022-06-23</lastmod>
+    <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zzming.cn/categories/%E8%A7%86%E9%A2%91/</loc>
-    <lastmod>2022-06-23</lastmod>
+    <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.zzming.cn/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2022-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzming.cn/categories/Android/</loc>
-    <lastmod>2022-06-23</lastmod>
+    <lastmod>2022-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
