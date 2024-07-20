@@ -83,15 +83,6 @@
   </url>
   
   <url>
-    <loc>https://blog.zzming.cn/archives/index.html</loc>
-    
-    <lastmod>2024-07-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.zzming.cn/about/index.html</loc>
     
     <lastmod>2024-07-20</lastmod>
@@ -101,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://blog.zzming.cn/categories/index.html</loc>
+    <loc>https://blog.zzming.cn/archives/index.html</loc>
     
     <lastmod>2024-07-20</lastmod>
     
@@ -119,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://blog.zzming.cn/post/99fd5a78.html</loc>
+    <loc>https://blog.zzming.cn/categories/index.html</loc>
     
     <lastmod>2024-07-20</lastmod>
     
@@ -129,6 +120,15 @@
   
   <url>
     <loc>https://blog.zzming.cn/post/20c6ad4c.html</loc>
+    
+    <lastmod>2024-07-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zzming.cn/post/99fd5a78.html</loc>
     
     <lastmod>2024-07-20</lastmod>
     
@@ -146,6 +146,13 @@
 
   
   <url>
+    <loc>https://blog.zzming.cn/tags/%E8%87%AA%E5%AE%9A%E4%B9%89View/</loc>
+    <lastmod>2024-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.zzming.cn/tags/android/</loc>
     <lastmod>2024-07-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -154,13 +161,6 @@
   
   <url>
     <loc>https://blog.zzming.cn/tags/butterfly/</loc>
-    <lastmod>2024-07-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzming.cn/tags/%E8%87%AA%E5%AE%9A%E4%B9%89View/</loc>
     <lastmod>2024-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -190,14 +190,14 @@
   </url>
   
   <url>
-    <loc>https://blog.zzming.cn/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://blog.zzming.cn/categories/%E8%A7%86%E9%A2%91/</loc>
     <lastmod>2024-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.zzming.cn/categories/%E8%A7%86%E9%A2%91/</loc>
+    <loc>https://blog.zzming.cn/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2024-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
