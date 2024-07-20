@@ -21,7 +21,7 @@ screenshot: the screenshot of your website
 ```yaml
 name: 钟子明
 link: https://zzming.cn
-avatar: https://img.upyun.zzming.cn/icon/avatar.png
+avatar: http://zzm-img-upyun.test.upcdn.net/icon/avatar.png
 descr: 清风抚帘逃，月儿掩面笑。
 screenshot: https://fastly.jsdelivr.net/gh/zzmgoing/assets@main/img/blog_screen_bg.png 
 ```

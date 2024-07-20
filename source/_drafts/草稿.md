@@ -20,7 +20,6 @@ copyright_url:
 copyright_info:
 mathjax:
 katex:
-aplayer:
 highlight_shrink:
 aside:
 ---
