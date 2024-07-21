@@ -7,4 +7,7 @@ top_img:
 cover:
 ---
 
+<meta name="referrer" content="no-referrer" />
+
+
 更新中...

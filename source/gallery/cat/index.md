@@ -5,6 +5,9 @@ type: "cat"
 comments: false
 ---
 
+<meta name="referrer" content="no-referrer" />
+
+
 {% gallery %}
 ![喵](https://fastly.jsdelivr.net/gh/zzmgoing/assets@main/img/301641287402_.pic_hd.webp)
 ![喵](https://fastly.jsdelivr.net/gh/zzmgoing/assets@main/img/301641287402_.pic_hd.webp)

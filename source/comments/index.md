@@ -4,6 +4,9 @@ date: 2022-06-14 23:07:59
 type: "comments"
 ---
 
+<meta name="referrer" content="no-referrer" />
+
+
 {% span center small red, ━━━━━━━★━━━━━━━━━━★━━━━━━━ %}
 {% span center small red, . %}
 {% span center small red, . %}

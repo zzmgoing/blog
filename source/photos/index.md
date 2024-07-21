@@ -5,6 +5,9 @@ type: "photos"
 comments: false
 ---
 
+<meta name="referrer" content="no-referrer" />
+
+
 <div class="gallery-group-main">
 {% galleryGroup '壁纸' '收藏的一些壁纸' '/gallery/wallpaper' https://fastly.jsdelivr.net/gh/zzmgoing/assets@main/wallpaper/haizeiwang_bg.webp %}
 {% galleryGroup '旅游' '看看外面的世界' '/gallery/travel' https://fastly.jsdelivr.net/gh/zzmgoing/assets@main/img/301641287402_.pic_hd.webp %}

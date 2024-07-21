@@ -23,6 +23,9 @@ katex:
 highlight_shrink:
 aside:
 ---
+
+<meta name="referrer" content="no-referrer" />
+
 # Butterfly主题
 
 [comment]: <> ({% site Butterfly, url=https://butterfly.js.org, screenshot=https://fastly.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg, avatar=https://butterfly.js.org/img/avatar.png, description=Butterfly主题官网 %})

@@ -6,6 +6,9 @@ tags: android
 categories: Android面试
 ---
 
+<meta name="referrer" content="no-referrer" />
+
+
 # 网络
 TCP和UDP
 HTTP和HTTPS

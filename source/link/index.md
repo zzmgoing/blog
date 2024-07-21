@@ -5,6 +5,9 @@ type: "link"
 comments: true
 ---
 
+<meta name="referrer" content="no-referrer" />
+
+
 
 ## 申请友链格式
 
