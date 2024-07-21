@@ -6,5 +6,5 @@ comments: false
 ---
 
 {% gallery %}
-![喵](http://zzm-img-upyun.test.upcdn.net/image/301641287402_.pic_hd.jpg)
+![喵](https://fastly.jsdelivr.net/gh/zzmgoing/assets@main/img/301641287402_.pic_hd.webp)
 {% endgallery %}

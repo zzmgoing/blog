@@ -6,7 +6,7 @@ comments: false
 ---
 
 {% gallery %}
-![海贼王](http://zzm-img-upyun.test.upcdn.net/wallpaper/haizeiwang_bg.jpeg)
-![日落](http://zzm-img-upyun.test.upcdn.net/wallpaper/fengjing_riluo.webp)
-![涂山红红](http://zzm-img-upyun.test.upcdn.net/wallpaper/dongman_tushanhonghong.webp)
+![海贼王](https://fastly.jsdelivr.net/gh/zzmgoing/assets@main/wallpaper/haizeiwang_bg.webp)
+![日落](https://fastly.jsdelivr.net/gh/zzmgoing/assets@main/wallpaper/fengjing_riluo.webp)
+![涂山红红](https://fastly.jsdelivr.net/gh/zzmgoing/assets@main/wallpaper/dongman_tushanhonghong.webp)
 {% endgallery %}

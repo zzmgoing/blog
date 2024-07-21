@@ -6,7 +6,7 @@ comments: false
 ---
 
 <div class="gallery-group-main">
-{% galleryGroup '壁纸' '收藏的一些壁纸' '/gallery/wallpaper' http://zzm-img-upyun.test.upcdn.net/wallpaper/haizeiwang_bg.jpeg %}
-{% galleryGroup '旅游' '看看外面的世界' '/gallery/travel' http://zzm-img-upyun.test.upcdn.net/image/301641287402_.pic_hd.jpg %}
-{% galleryGroup '喵喵' '喵喵那么可爱' '/gallery/cat' http://zzm-img-upyun.test.upcdn.net/image/301641287402_.pic_hd.jpg %}
+{% galleryGroup '壁纸' '收藏的一些壁纸' '/gallery/wallpaper' https://fastly.jsdelivr.net/gh/zzmgoing/assets@main/wallpaper/haizeiwang_bg.webp %}
+{% galleryGroup '旅游' '看看外面的世界' '/gallery/travel' https://fastly.jsdelivr.net/gh/zzmgoing/assets@main/img/301641287402_.pic_hd.webp %}
+{% galleryGroup '喵喵' '喵喵那么可爱' '/gallery/cat' https://fastly.jsdelivr.net/gh/zzmgoing/assets@main/img/301641287402_.pic_hd.webp %}
 </div>
